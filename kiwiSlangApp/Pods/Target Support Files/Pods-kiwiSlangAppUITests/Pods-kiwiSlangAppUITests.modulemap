@@ -1,0 +1,6 @@
+framework module Pods_kiwiSlangAppUITests {
+  umbrella header "Pods-kiwiSlangAppUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

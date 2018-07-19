@@ -1,0 +1,8 @@
+app_identifier("com.sheinix.kiwiSlangApp") # The bundle identifier of your app
+apple_id("jnuvreni@gmail.com") # Your Apple email address
+
+itc_team_id("1577943") # App Store Connect Team ID
+team_id("C8499A962H") # Developer Portal Team ID
+
+# For more information about the Appfile, see:
+#     https://docs.fastlane.tools/advanced/#appfile

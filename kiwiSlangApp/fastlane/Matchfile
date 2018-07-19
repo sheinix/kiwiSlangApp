@@ -1,9 +1,0 @@
-git_url("https://sheinix@bitbucket.org/sheinix/kiwislangapp-certs.git")
-
-type("development") # The default type, can be: appstore, adhoc, enterprise or development
-
-app_identifier(["com.sheinix.kiwiSlangApp"])
-username("jnuvreni@gmail.com") # Your Apple Developer Portal username
-
-# For all available options run `fastlane match --help`
-# Remove the # in the beginning of the line to enable the other options

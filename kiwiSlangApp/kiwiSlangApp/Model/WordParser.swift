@@ -7,25 +7,43 @@
 //
 
 import Foundation
-import CoreData
 
 struct WordParser {
     
-    static func parse(dict : NSDictionary, in manageObjContext : NSManagedObjectContext) -> SlangWord? {
+    static func parse(dict : [String : String]) -> SlangWord? {
         
-        guard let name = dict.value(forKey: "name") as? String,
-              let meaning = dict.value(forKey: "meaning") as? String,
-              let countryCode = dict.value(forKey: "countryCode") as? String else { return nil }
+        guard let name = dict["name"],
+              let meaning = dict["meaning"],
+              let countryCode = dict["countryCode"] else { return nil }
         
-        if let slangWord = NSEntityDescription.insertNewObject(forEntityName: "SlangWord", into: manageObjContext) as? SlangWord {
-            slangWord.setValue(name, forKey: "") = name
-            slangWord.explanation = meaning
-            slangWord.imageName = dict.value(forKey: "imgName") as! String
-            slangWord.imageName = dict.value(forKey: "imgName") as! String
+        let slangWord = SlangWord()
+        slangWord.wordName = name
+        slangWord.wordMeaning = meaning
+        if let imgName = dict["imageName"] {
+            slangWord.imageName = imgName
         }
+        
+        let countryDB = Country()
+        countryDB.code = countryCode
+        let country = Countries(code: countryCode)
+        countryDB.name = country.name
+        countryDB.flagimgName = country.flagName
+        
+        
+        slangWord.country = countryDB
+        
+        return slangWord
     }
     
-    
+    static func parse(list: [[String : String]]) -> [SlangWord] {
+        var words : [SlangWord] = []
+        list.forEach { (wordDict) in
+            if let unwrappedWord = parse(dict: wordDict) {
+                words.append(unwrappedWord)
+            }
+        }
+        return words
+    }
 }
 
 /*

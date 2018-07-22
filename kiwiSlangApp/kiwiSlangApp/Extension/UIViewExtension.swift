@@ -17,4 +17,16 @@ extension UIView {
         gradientLayer.frame = self.bounds
         self.layer.insertSublayer(gradientLayer, at: 0)
     }
+    
+    class func instanceFromNib() -> UIView {
+        return UINib(nibName: String(describing: self), bundle: nil).instantiate(withOwner: nil, options: nil)[0] as! UIView
+    }
+    
+    func cardStyle() {
+        self.layer.cornerRadius = 20.0
+        self.layer.shadowColor = UIColor.gray.cgColor
+        self.layer.shadowOffset = CGSize(width: 0.0, height: 0.0)
+        self.layer.shadowRadius = 12.0
+        self.layer.shadowOpacity = 0.7
+    }
 }

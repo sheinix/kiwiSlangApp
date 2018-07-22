@@ -15,6 +15,7 @@ target 'kiwiSlangApp' do
   pod 'SwiftGen'
   pod 'SwiftLint'
   pod 'Koloda'
+  pod 'RealmSwift'
 
   target 'kiwiSlangAppTests' do
     inherit! :search_paths

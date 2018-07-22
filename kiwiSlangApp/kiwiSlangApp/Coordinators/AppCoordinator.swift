@@ -10,13 +10,14 @@ import Foundation
 import UIKit
 
 class ApplicationCoordinator: Coordinator {
-    //    let storage: StorageInstance //  1
+
     let window: UIWindow
     var rootViewController: UIViewController!
     
     init(window: UIWindow) {
         self.window = window
-        let slangVM = SlangViewModel(slangWords: [])
+        let wordArray = PersitanceManager.shared.loadSlangWordsFor(country: Countries.newZealand)
+        let slangVM = SlangViewModel(slangWords: wordArray)
         rootViewController = SlangViewerViewController(_associatedViewModel: slangVM)
     }
     

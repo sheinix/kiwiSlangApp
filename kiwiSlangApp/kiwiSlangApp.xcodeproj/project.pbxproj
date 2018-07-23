@@ -29,6 +29,14 @@
 		BD191082210158B600837158 /* WordParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD191081210158B600837158 /* WordParser.swift */; };
 		BD222B4921044A7C0038699C /* Country.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD222B4821044A7C0038699C /* Country.swift */; };
 		BD222B4B21044AF70038699C /* SlangWord.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD222B4A21044AF70038699C /* SlangWord.swift */; };
+		BD259B7A2104D73E00C7D0DE /* CollectionExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDEB29EE2104D6BF006874BA /* CollectionExtension.swift */; };
+		BD259B7B2104D73E00C7D0DE /* CollectionExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDEB29EE2104D6BF006874BA /* CollectionExtension.swift */; };
+		BD259B7E2105364500C7D0DE /* Images.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD259B7C2105364500C7D0DE /* Images.swift */; };
+		BD259B7F2105364500C7D0DE /* Images.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD259B7C2105364500C7D0DE /* Images.swift */; };
+		BD259B802105364500C7D0DE /* Images.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD259B7C2105364500C7D0DE /* Images.swift */; };
+		BD259B812105364500C7D0DE /* Localized.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD259B7D2105364500C7D0DE /* Localized.swift */; };
+		BD259B822105364500C7D0DE /* Localized.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD259B7D2105364500C7D0DE /* Localized.swift */; };
+		BD259B832105364500C7D0DE /* Localized.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD259B7D2105364500C7D0DE /* Localized.swift */; };
 		BD807159210458C6008BE4B1 /* PersitanceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD0D9A1421014E5C00FBBA2F /* PersitanceManager.swift */; };
 		BD80715A210458CC008BE4B1 /* WordParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD191081210158B600837158 /* WordParser.swift */; };
 		BD80715B210458D3008BE4B1 /* WordParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD191081210158B600837158 /* WordParser.swift */; };
@@ -78,6 +86,7 @@
 		BD96BFA921011DF800A354FC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD96BFA721011DF800A354FC /* LaunchScreen.storyboard */; };
 		BD96BFB421011DF800A354FC /* kiwiSlangAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD96BFB321011DF800A354FC /* kiwiSlangAppTests.swift */; };
 		BD96BFBF21011DF800A354FC /* kiwiSlangAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD96BFBE21011DF800A354FC /* kiwiSlangAppUITests.swift */; };
+		BDEB29EF2104D6BF006874BA /* CollectionExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDEB29EE2104D6BF006874BA /* CollectionExtension.swift */; };
 		C82C278D8DB38C3A01E26F05 /* Pods_kiwiSlangApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9EB978BBE168478F0F062CE /* Pods_kiwiSlangApp.framework */; };
 /* End PBXBuildFile section */
 
@@ -127,6 +136,8 @@
 		BD191081210158B600837158 /* WordParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordParser.swift; sourceTree = "<group>"; };
 		BD222B4821044A7C0038699C /* Country.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Country.swift; sourceTree = "<group>"; };
 		BD222B4A21044AF70038699C /* SlangWord.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlangWord.swift; sourceTree = "<group>"; };
+		BD259B7C2105364500C7D0DE /* Images.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Images.swift; sourceTree = "<group>"; };
+		BD259B7D2105364500C7D0DE /* Localized.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Localized.swift; sourceTree = "<group>"; };
 		BD80718121045B63008BE4B1 /* CardView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CardView.xib; sourceTree = "<group>"; };
 		BD80718321045C10008BE4B1 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 		BD96BF9821011DF500A354FC /* kiwiSlangApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = kiwiSlangApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -140,6 +151,7 @@
 		BD96BFBA21011DF800A354FC /* kiwiSlangAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = kiwiSlangAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD96BFBE21011DF800A354FC /* kiwiSlangAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = kiwiSlangAppUITests.swift; sourceTree = "<group>"; };
 		BD96BFC021011DF800A354FC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BDEB29EE2104D6BF006874BA /* CollectionExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionExtension.swift; sourceTree = "<group>"; };
 		BF4AEC51A3BC3BA69D8338E7 /* Pods-kiwiSlangAppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-kiwiSlangAppUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-kiwiSlangAppUITests/Pods-kiwiSlangAppUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		C09DA096AB7B1F0319CD7D3B /* Pods_kiwiSlangAppUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_kiwiSlangAppUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C67050A55078D1738C3EE80A /* Pods-kiwiSlangAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-kiwiSlangAppTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-kiwiSlangAppTests/Pods-kiwiSlangAppTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -189,6 +201,8 @@
 		BD0D999E2101205800FBBA2F /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				BD259B7C2105364500C7D0DE /* Images.swift */,
+				BD259B7D2105364500C7D0DE /* Localized.swift */,
 				BD19107C21014FEB00837158 /* nzSlang.plist */,
 			);
 			path = Resources;
@@ -238,6 +252,7 @@
 			isa = PBXGroup;
 			children = (
 				BD0D99BF2101385D00FBBA2F /* UIViewExtension.swift */,
+				BDEB29EE2104D6BF006874BA /* CollectionExtension.swift */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
@@ -741,6 +756,7 @@
 				BD0D99B62101366700FBBA2F /* SlangViewerViewController.swift in Sources */,
 				BD0D99CC210145D800FBBA2F /* MainViewController.swift in Sources */,
 				BD191080210156AD00837158 /* CountryFactory.swift in Sources */,
+				BDEB29EF2104D6BF006874BA /* CollectionExtension.swift in Sources */,
 				BD0D9A1521014E5C00FBBA2F /* PersitanceManager.swift in Sources */,
 				BD0D99B3210135B300FBBA2F /* AppCoordinator.swift in Sources */,
 				BD191082210158B600837158 /* WordParser.swift in Sources */,
@@ -753,7 +769,9 @@
 				BD0D99C02101385D00FBBA2F /* UIViewExtension.swift in Sources */,
 				BD0D99C82101443300FBBA2F /* SlangViewModel.swift in Sources */,
 				BD0D99CE2101461B00FBBA2F /* MainViewControllerProtocol.swift in Sources */,
+				BD259B7E2105364500C7D0DE /* Images.swift in Sources */,
 				BD0D99CA210144A200FBBA2F /* SlangWordProtocol.swift in Sources */,
+				BD259B812105364500C7D0DE /* Localized.swift in Sources */,
 				BD0D99BB2101372500FBBA2F /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -766,6 +784,7 @@
 				BD80715A210458CC008BE4B1 /* WordParser.swift in Sources */,
 				BD80717521045A2F008BE4B1 /* AppCoordinatorProtocol.swift in Sources */,
 				BD80717D21045A43008BE4B1 /* Colors.swift in Sources */,
+				BD259B7A2104D73E00C7D0DE /* CollectionExtension.swift in Sources */,
 				BD80716B21045A09008BE4B1 /* MainViewController.swift in Sources */,
 				BD96BFB421011DF800A354FC /* kiwiSlangAppTests.swift in Sources */,
 				BD80717721045A33008BE4B1 /* MainViewControllerProtocol.swift in Sources */,
@@ -778,7 +797,9 @@
 				BD80716521045943008BE4B1 /* SlangWordProtocol.swift in Sources */,
 				BD80716921045A06008BE4B1 /* SlangViewerViewController.swift in Sources */,
 				BD807160210458E6008BE4B1 /* CountryFactory.swift in Sources */,
+				BD259B7F2105364500C7D0DE /* Images.swift in Sources */,
 				BD807163210458F3008BE4B1 /* AppCoordinator.swift in Sources */,
+				BD259B822105364500C7D0DE /* Localized.swift in Sources */,
 				BD80716721045A01008BE4B1 /* SlangViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -791,6 +812,7 @@
 				BD80715F210458E3008BE4B1 /* Country.swift in Sources */,
 				BD80717621045A2F008BE4B1 /* AppCoordinatorProtocol.swift in Sources */,
 				BD80717E21045A44008BE4B1 /* Colors.swift in Sources */,
+				BD259B7B2104D73E00C7D0DE /* CollectionExtension.swift in Sources */,
 				BD80716C21045A09008BE4B1 /* MainViewController.swift in Sources */,
 				BD80715D210458DD008BE4B1 /* SlangWord.swift in Sources */,
 				BD80717821045A33008BE4B1 /* MainViewControllerProtocol.swift in Sources */,
@@ -803,7 +825,9 @@
 				BD80716621045943008BE4B1 /* SlangWordProtocol.swift in Sources */,
 				BD80716A21045A06008BE4B1 /* SlangViewerViewController.swift in Sources */,
 				BD807162210458EE008BE4B1 /* PersitanceManager.swift in Sources */,
+				BD259B802105364500C7D0DE /* Images.swift in Sources */,
 				BD807164210458F3008BE4B1 /* AppCoordinator.swift in Sources */,
+				BD259B832105364500C7D0DE /* Localized.swift in Sources */,
 				BD80716821045A02008BE4B1 /* SlangViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -4,7 +4,37 @@
 <dict>
 	<key>words</key>
 	<array>
-		<dict>
+        <dict>
+            <key>name</key>
+            <string>Bob's your uncle</string>
+            <key>meaning</key>
+            <string>Well there you have it</string>
+            <key>imgName</key>
+            <string></string>
+            <key>countryCode</key>
+            <string>NZ</string>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>Yeah...Nah</string>
+            <key>meaning</key>
+            <string>No</string>
+            <key>imgName</key>
+            <string></string>
+            <key>countryCode</key>
+            <string>NZ</string>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>Knackered</string>
+            <key>meaning</key>
+            <string>Very tired</string>
+            <key>imgName</key>
+            <string></string>
+            <key>countryCode</key>
+            <string>NZ</string>
+        </dict>
+		 <dict>
 			<key>name</key>
 			<string>Flat Tack</string>
 			<key>meaning</key>
@@ -24,6 +54,856 @@
 			<key>countryCode</key>
 			<string>NZ</string>
 		</dict>
+        <dict>
+            <key>name</key>
+            <string>Cuppa</string>
+            <key>meaning</key>
+            <string>Cup of Tea</string>
+            <key>imgName</key>
+            <string></string>
+            <key>countryCode</key>
+            <string>NZ</string>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>Bro</string>
+            <key>meaning</key>
+            <string>Friend</string>
+            <key>imgName</key>
+            <string></string>
+            <key>countryCode</key>
+            <string>NZ</string>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>Ta</string>
+            <key>meaning</key>
+            <string>Thank You</string>
+            <key>imgName</key>
+            <string></string>
+            <key>countryCode</key>
+            <string>NZ</string>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>JAFA</string>
+            <key>meaning</key>
+            <string>Resident of Auckland</string>
+            <key>imgName</key>
+            <string></string>
+            <key>countryCode</key>
+            <string>NZ</string>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>Choice</string>
+            <key>meaning</key>
+            <string>Fantastic</string>
+            <key>imgName</key>
+            <string></string>
+            <key>countryCode</key>
+            <string>NZ</string>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>Dodgy</string>
+            <key>meaning</key>
+            <string>Suspicious</string>
+            <key>imgName</key>
+            <string></string>
+            <key>countryCode</key>
+            <string>NZ</string>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>Cuzzie</string>
+            <key>meaning</key>
+            <string>Cousin</string>
+            <key>imgName</key>
+            <string></string>
+            <key>countryCode</key>
+            <string>NZ</string>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>Cheap as Chips</string>
+            <key>meaning</key>
+            <string>Inexpensive</string>
+            <key>imgName</key>
+            <string></string>
+            <key>countryCode</key>
+            <string>NZ</string>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>Mainland</string>
+            <key>meaning</key>
+            <string>South Island</string>
+            <key>imgName</key>
+            <string></string>
+            <key>countryCode</key>
+            <string>NZ</string>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>Bach</string>
+            <key>meaning</key>
+            <string>Beach House</string>
+            <key>imgName</key>
+            <string></string>
+            <key>countryCode</key>
+            <string>NZ</string>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>Mean</string>
+            <key>meaning</key>
+            <string>Awesome</string>
+            <key>imgName</key>
+            <string></string>
+            <key>countryCode</key>
+            <string>NZ</string>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>Gumboots</string>
+            <key>meaning</key>
+            <string>Rubber Boots</string>
+            <key>imgName</key>
+            <string></string>
+            <key>countryCode</key>
+            <string>NZ</string>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>Wally</string>
+            <key>meaning</key>
+            <string>Silly Person</string>
+            <key>imgName</key>
+            <string></string>
+            <key>countryCode</key>
+            <string>NZ</string>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>Loo</string>
+            <key>meaning</key>
+            <string>Toilet</string>
+            <key>imgName</key>
+            <string></string>
+            <key>countryCode</key>
+            <string>NZ</string>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>Kiwi</string>
+            <key>meaning</key>
+            <string>New Zealander</string>
+            <key>imgName</key>
+            <string></string>
+            <key>countryCode</key>
+            <string>NZ</string>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>Jandals</string>
+            <key>meaning</key>
+            <string>Flip-Flops</string>
+            <key>imgName</key>
+            <string></string>
+            <key>countryCode</key>
+            <string>NZ</string>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>Flog</string>
+            <key>meaning</key>
+            <string>Steal</string>
+            <key>imgName</key>
+            <string></string>
+            <key>countryCode</key>
+            <string>NZ</string>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>She'll be right</string>
+            <key>meaning</key>
+            <string>It will be fine</string>
+            <key>imgName</key>
+            <string></string>
+            <key>countryCode</key>
+            <string>NZ</string>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>Crook</string>
+            <key>meaning</key>
+            <string>Unwell</string>
+            <key>imgName</key>
+            <string></string>
+            <key>countryCode</key>
+            <string>NZ</string>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>Gawk</string>
+            <key>meaning</key>
+            <string>Stare</string>
+            <key>imgName</key>
+            <string></string>
+            <key>countryCode</key>
+            <string>NZ</string>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>Smoko</string>
+            <key>meaning</key>
+            <string>A break at work</string>
+            <key>imgName</key>
+            <string></string>
+            <key>countryCode</key>
+            <string>NZ</string>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>Not even</string>
+            <key>meaning</key>
+            <string>That's not true</string>
+            <key>imgName</key>
+            <string></string>
+            <key>countryCode</key>
+            <string>NZ</string>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>Jug</string>
+            <key>meaning</key>
+            <string>Kettle</string>
+            <key>imgName</key>
+            <string></string>
+            <key>countryCode</key>
+            <string>NZ</string>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>Heaps</string>
+            <key>meaning</key>
+            <string>Lots</string>
+            <key>imgName</key>
+            <string></string>
+            <key>countryCode</key>
+            <string>NZ</string>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>Tramping</string>
+            <key>meaning</key>
+            <string>Hiking</string>
+            <key>imgName</key>
+            <string></string>
+            <key>countryCode</key>
+            <string>NZ</string>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>A into G</string>
+            <key>meaning</key>
+            <string>Get Going</string>
+            <key>imgName</key>
+            <string></string>
+            <key>countryCode</key>
+            <string>NZ</string>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>Stoked</string>
+            <key>meaning</key>
+            <string>Happy</string>
+            <key>imgName</key>
+            <string></string>
+            <key>countryCode</key>
+            <string>NZ</string>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>Wop Wops</string>
+            <key>meaning</key>
+            <string>Middle of nowhere</string>
+            <key>imgName</key>
+            <string></string>
+            <key>countryCode</key>
+            <string>NZ</string>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>Spud</string>
+            <key>meaning</key>
+            <string>Potatoe</string>
+            <key>imgName</key>
+            <string></string>
+            <key>countryCode</key>
+            <string>NZ</string>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>Cuppa</string>
+            <key>meaning</key>
+            <string>Cup of Tea</string>
+            <key>imgName</key>
+            <string></string>
+            <key>countryCode</key>
+            <string>NZ</string>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>O.E.</string>
+            <key>meaning</key>
+            <string>Overseas Experience</string>
+            <key>imgName</key>
+            <string></string>
+            <key>countryCode</key>
+            <string>NZ</string>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>Good as gold</string>
+            <key>meaning</key>
+            <string>Everything is perfect</string>
+            <key>imgName</key>
+            <string></string>
+            <key>countryCode</key>
+            <string>NZ</string>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>Taking the piss</string>
+            <key>meaning</key>
+            <string>Make fun of</string>
+            <key>imgName</key>
+            <string></string>
+            <key>countryCode</key>
+            <string>NZ</string>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>Bags</string>
+            <key>meaning</key>
+            <string>Expression of Ownership</string>
+            <key>imgName</key>
+            <string></string>
+            <key>countryCode</key>
+            <string>NZ</string>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>Scull</string>
+            <key>meaning</key>
+            <string>To down your drink</string>
+            <key>imgName</key>
+            <string></string>
+            <key>countryCode</key>
+            <string>NZ</string>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>Munted</string>
+            <key>meaning</key>
+            <string>Broken</string>
+            <key>imgName</key>
+            <string></string>
+            <key>countryCode</key>
+            <string>NZ</string>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>Godzone</string>
+            <key>meaning</key>
+            <string>New Zealand</string>
+            <key>imgName</key>
+            <string></string>
+            <key>countryCode</key>
+            <string>NZ</string>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>Chilly Bin</string>
+            <key>meaning</key>
+            <string>Cooler</string>
+            <key>imgName</key>
+            <string></string>
+            <key>countryCode</key>
+            <string>NZ</string>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>Bugger All</string>
+            <key>meaning</key>
+            <string>Not much of something</string>
+            <key>imgName</key>
+            <string></string>
+            <key>countryCode</key>
+            <string>NZ</string>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>Gutted</string>
+            <key>meaning</key>
+            <string>Devastated</string>
+            <key>imgName</key>
+            <string></string>
+            <key>countryCode</key>
+            <string>NZ</string>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>Togs</string>
+            <key>meaning</key>
+            <string>Swimming costume</string>
+            <key>imgName</key>
+            <string></string>
+            <key>countryCode</key>
+            <string>NZ</string>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>Scodey</string>
+            <key>meaning</key>
+            <string>Rotten or gross</string>
+            <key>imgName</key>
+            <string></string>
+            <key>countryCode</key>
+            <string>NZ</string>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>Chocka</string>
+            <key>meaning</key>
+            <string>Full</string>
+            <key>imgName</key>
+            <string></string>
+            <key>countryCode</key>
+            <string>NZ</string>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>Sweet as</string>
+            <key>meaning</key>
+            <string>It's all good</string>
+            <key>imgName</key>
+            <string></string>
+            <key>countryCode</key>
+            <string>NZ</string>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>A Dag</string>
+            <key>meaning</key>
+            <string>Amusing Person</string>
+            <key>imgName</key>
+            <string></string>
+            <key>countryCode</key>
+            <string>NZ</string>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>Chur</string>
+            <key>meaning</key>
+            <string>Cheers</string>
+            <key>imgName</key>
+            <string></string>
+            <key>countryCode</key>
+            <string>NZ</string>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>Dairy</string>
+            <key>meaning</key>
+            <string>Convinience store</string>
+            <key>imgName</key>
+            <string></string>
+            <key>countryCode</key>
+            <string>NZ</string>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>Pack a sad</string>
+            <key>meaning</key>
+            <string>To sulk</string>
+            <key>imgName</key>
+            <string></string>
+            <key>countryCode</key>
+            <string>NZ</string>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>Hard Case</string>
+            <key>meaning</key>
+            <string>Funny person</string>
+            <key>imgName</key>
+            <string></string>
+            <key>countryCode</key>
+            <string>NZ</string>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>Hard Out</string>
+            <key>meaning</key>
+            <string>Totally agree</string>
+            <key>imgName</key>
+            <string></string>
+            <key>countryCode</key>
+            <string>NZ</string>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>Hot Chips</string>
+            <key>meaning</key>
+            <string>French Fries</string>
+            <key>imgName</key>
+            <string></string>
+            <key>countryCode</key>
+            <string>NZ</string>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>Hottie</string>
+            <key>meaning</key>
+            <string>Hot water bottle or good looking person</string>
+            <key>imgName</key>
+            <string></string>
+            <key>countryCode</key>
+            <string>NZ</string>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>Hungus</string>
+            <key>meaning</key>
+            <string>Hungry person eating all the food</string>
+            <key>imgName</key>
+            <string></string>
+            <key>countryCode</key>
+            <string>NZ</string>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>Keen as</string>
+            <key>meaning</key>
+            <string>Very interested</string>
+            <key>imgName</key>
+            <string></string>
+            <key>countryCode</key>
+            <string>NZ</string>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>Nappy</string>
+            <key>meaning</key>
+            <string>Diaper</string>
+            <key>imgName</key>
+            <string></string>
+            <key>countryCode</key>
+            <string>NZ</string>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>No Worries</string>
+            <key>meaning</key>
+            <string>Not a Problem</string>
+            <key>imgName</key>
+            <string></string>
+            <key>countryCode</key>
+            <string>NZ</string>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>Pavlova</string>
+            <key>meaning</key>
+            <string>Traditional meringue dessert</string>
+            <key>imgName</key>
+            <string></string>
+            <key>countryCode</key>
+            <string>NZ</string>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>Taking the piss</string>
+            <key>meaning</key>
+            <string>Make fun of</string>
+            <key>imgName</key>
+            <string></string>
+            <key>countryCode</key>
+            <string>NZ</string>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>Piss Up</string>
+            <key>meaning</key>
+            <string>Party</string>
+            <key>imgName</key>
+            <string></string>
+            <key>countryCode</key>
+            <string>NZ</string>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>Popsicle</string>
+            <key>meaning</key>
+            <string>Make fun of</string>
+            <key>imgName</key>
+            <string></string>
+            <key>countryCode</key>
+            <string>NZ</string>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>Popsical</string>
+            <key>meaning</key>
+            <string>Ice Block or Ice Lolly</string>
+            <key>imgName</key>
+            <string></string>
+            <key>countryCode</key>
+            <string>NZ</string>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>Lollies</string>
+            <key>meaning</key>
+            <string>Sweets or candies</string>
+            <key>imgName</key>
+            <string></string>
+            <key>countryCode</key>
+            <string>NZ</string>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>Quack</string>
+            <key>meaning</key>
+            <string>A Psychiatrist</string>
+            <key>imgName</key>
+            <string></string>
+            <key>countryCode</key>
+            <string>NZ</string>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>Scarfie</string>
+            <key>meaning</key>
+            <string>Otago University Student</string>
+            <key>imgName</key>
+            <string></string>
+            <key>countryCode</key>
+            <string>NZ</string>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>Sickie</string>
+            <key>meaning</key>
+            <string>Taking a sick day off work</string>
+            <key>imgName</key>
+            <string></string>
+            <key>countryCode</key>
+            <string>NZ</string>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>Skint</string>
+            <key>meaning</key>
+            <string>Broke - Poor - No money</string>
+            <key>imgName</key>
+            <string></string>
+            <key>countryCode</key>
+            <string>NZ</string>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>Squizz</string>
+            <key>meaning</key>
+            <string>Take a look</string>
+            <key>imgName</key>
+            <string></string>
+            <key>countryCode</key>
+            <string>NZ</string>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>Sunnies</string>
+            <key>meaning</key>
+            <string>Sunglasses</string>
+            <key>imgName</key>
+            <string></string>
+            <key>countryCode</key>
+            <string>NZ</string>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>Tea</string>
+            <key>meaning</key>
+            <string>Dinner</string>
+            <key>imgName</key>
+            <string></string>
+            <key>countryCode</key>
+            <string>NZ</string>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>Westie</string>
+            <key>meaning</key>
+            <string>West Aucklander</string>
+            <key>imgName</key>
+            <string></string>
+            <key>countryCode</key>
+            <string>NZ</string>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>Wobbly</string>
+            <key>meaning</key>
+            <string>A Tantrum</string>
+            <key>imgName</key>
+            <string></string>
+            <key>countryCode</key>
+            <string>NZ</string>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>Bloke</string>
+            <key>meaning</key>
+            <string>A Man</string>
+            <key>imgName</key>
+            <string></string>
+            <key>countryCode</key>
+            <string>NZ</string>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>Bogan</string>
+            <key>meaning</key>
+            <string>An unsophisticated person</string>
+            <key>imgName</key>
+            <string></string>
+            <key>countryCode</key>
+            <string>NZ</string>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>Buggar</string>
+            <key>meaning</key>
+            <string>Disappointment</string>
+            <key>imgName</key>
+            <string></string>
+            <key>countryCode</key>
+            <string>NZ</string>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>Chook</string>
+            <key>meaning</key>
+            <string>Short for Chicken</string>
+            <key>imgName</key>
+            <string></string>
+            <key>countryCode</key>
+            <string>NZ</string>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>Crack up</string>
+            <key>meaning</key>
+            <string>Something funny</string>
+            <key>imgName</key>
+            <string></string>
+            <key>countryCode</key>
+            <string>NZ</string>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>Dear</string>
+            <key>meaning</key>
+            <string>Expensive</string>
+            <key>imgName</key>
+            <string></string>
+            <key>countryCode</key>
+            <string>NZ</string>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>Dole</string>
+            <key>meaning</key>
+            <string>Unemployment benefit</string>
+            <key>imgName</key>
+            <string></string>
+            <key>countryCode</key>
+            <string>NZ</string>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>Dunny</string>
+            <key>meaning</key>
+            <string>Toilet</string>
+            <key>imgName</key>
+            <string></string>
+            <key>countryCode</key>
+            <string>NZ</string>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>Flat Out</string>
+            <key>meaning</key>
+            <string>As fast as possible</string>
+            <key>imgName</key>
+            <string></string>
+            <key>countryCode</key>
+            <string>NZ</string>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>Flanel</string>
+            <key>meaning</key>
+            <string>Face Cloth</string>
+            <key>imgName</key>
+            <string></string>
+            <key>countryCode</key>
+            <string>NZ</string>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>Flog</string>
+            <key>meaning</key>
+            <string>Steal</string>
+            <key>imgName</key>
+            <string></string>
+            <key>countryCode</key>
+            <string>NZ</string>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>Footie</string>
+            <key>meaning</key>
+            <string>Rugby</string>
+            <key>imgName</key>
+            <string></string>
+            <key>countryCode</key>
+            <string>NZ</string>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>G String</string>
+            <key>meaning</key>
+            <string>Thong style underwear</string>
+            <key>imgName</key>
+            <string></string>
+            <key>countryCode</key>
+            <string>NZ</string>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>Hangry</string>
+            <key>meaning</key>
+            <string>Anger due to hunger</string>
+            <key>imgName</key>
+            <string></string>
+            <key>countryCode</key>
+            <string>NZ</string>
+        </dict>
 	</array>
 </dict>
 </plist>

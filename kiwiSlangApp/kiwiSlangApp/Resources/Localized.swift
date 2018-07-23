@@ -7,6 +7,8 @@ import Foundation
 
 // swiftlint:disable explicit_type_interface identifier_name line_length nesting type_body_length type_name
 internal enum L10n {
+  /// Swipe the card to reveal more slang words!
+  internal static let helpInstructionLabel = L10n.tr("Localizable", "help_instruction_label")
 }
 // swiftlint:enable explicit_type_interface identifier_name line_length nesting type_body_length type_name
 

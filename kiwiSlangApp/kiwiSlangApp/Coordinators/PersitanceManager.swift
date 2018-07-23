@@ -21,11 +21,12 @@ class PersitanceManager {
    
     // MARK: - Data Pre-Loading
     
-    func preloadData() {
+    func preloadData(completion: () -> ()) {
         
         guard let wordList = loadPlist() else { return }
         let slangWords = WordParser.parse(list: wordList)
         save(wordList : slangWords)
+        completion()
     }
     
     fileprivate func save(wordList : [SlangWord]) {
@@ -63,7 +64,7 @@ class PersitanceManager {
     
     public func loadSlangWordsFor(country: Countries) -> [SlangWord] {
         let realm = try! Realm()
-        let slangWords = realm.objects(SlangWord.self)
+        let slangWords = realm.objects(SlangWord.self) //.shuffled()
         return Array(slangWords)
         
     }

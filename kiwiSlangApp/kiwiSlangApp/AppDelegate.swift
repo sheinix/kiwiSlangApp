@@ -20,11 +20,11 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         setupAnalytics()
         let window = UIWindow(frame: UIScreen.main.bounds)
-        let applicationCoordinator = ApplicationCoordinator(window: window)
         self.window = window
-        self.applicationCoordinator = applicationCoordinator
-        applicationCoordinator.start()
-        PersitanceManager.shared.preloadData()
+        PersitanceManager.shared.preloadData {
+            self.applicationCoordinator = ApplicationCoordinator(window: window)
+            self.applicationCoordinator?.start()
+        }
         
         return true
     }

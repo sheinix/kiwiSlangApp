@@ -11,13 +11,16 @@ import Koloda
 import SnapKit
 
 class SlangViewerViewController: UIViewController, MainViewControllerProtocol {
+   
+    @IBOutlet weak var titleLabel: UILabel!
+    @IBOutlet weak var bottomLabel: UILabel!
     
     var viewModel : SlangViewModel!
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        self.view.applyGradientWith(topColor: UIColor.Pallete.gradientTop, bottomColor: UIColor.Pallete.gradientBottom)
-        
+        self.view.applyGradientWith(UIColor.Pallete.BackGroundViewColors.gradientTop, UIColor.Pallete.BackGroundViewColors.gradientBottom)
+        bottomLabel.text = L10n.helpInstructionLabel
         let cardsView = KolodaView(frame: .zero)
         cardsView.dataSource = self
         cardsView.delegate = self
@@ -25,7 +28,7 @@ class SlangViewerViewController: UIViewController, MainViewControllerProtocol {
         cardsView.snp.makeConstraints { (make) in
             make.left.equalToSuperview().inset(20)
             make.right.equalToSuperview().inset(20)
-            make.top.equalToSuperview().inset(120)
+            make.top.equalTo(titleLabel.snp.bottom).offset(50)
             make.height.equalToSuperview().multipliedBy(0.6)
         }
     }
@@ -45,5 +48,8 @@ extension SlangViewerViewController : KolodaViewDelegate & KolodaViewDataSource 
     func kolodaSpeedThatCardShouldDrag(_ koloda: KolodaView) -> DragSpeed {
         return .fast
     }
-
+    
+    func kolodaDidRunOutOfCards(_ koloda: KolodaView) {
+        koloda.resetCurrentCardIndex()
+    }
 }

@@ -4,7 +4,6 @@
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
-        <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -12,6 +11,8 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="SlangViewerViewController" customModule="kiwiSlangApp" customModuleProvider="target">
             <connections>
+                <outlet property="bottomLabel" destination="IvN-qL-A4d" id="emP-5C-O7y"/>
+                <outlet property="titleLabel" destination="ZeB-Cs-EDu" id="p8e-pf-AvT"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
             </connections>
         </placeholder>
@@ -20,18 +21,33 @@
             <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
-                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Kiwi Slang BRO!" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZeB-Cs-EDu">
-                    <rect key="frame" x="16" y="58.999999999999993" width="343" height="31.666666666666664"/>
-                    <fontDescription key="fontDescription" type="boldSystem" pointSize="26"/>
-                    <nil key="textColor"/>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Kiwi Slang!" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZeB-Cs-EDu">
+                    <rect key="frame" x="84.333333333333329" y="74" width="206.66666666666669" height="49"/>
+                    <fontDescription key="fontDescription" type="boldSystem" pointSize="40"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     <nil key="highlightedColor"/>
+                    <color key="shadowColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <size key="shadowOffset" width="1" height="1"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Swipe the card to reveal more slang words!" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="IvN-qL-A4d">
+                    <rect key="frame" x="16" y="724" width="343" height="42"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="42" id="9Pk-Ci-tfh"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="italicSystem" pointSize="17"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <nil key="highlightedColor"/>
+                    <color key="shadowColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <size key="shadowOffset" width="1" height="0.0"/>
                 </label>
             </subviews>
-            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <color key="backgroundColor" red="0.22352941179999999" green="0.37254901959999998" blue="1" alpha="1" colorSpace="calibratedRGB"/>
             <constraints>
-                <constraint firstItem="ZeB-Cs-EDu" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" constant="15" id="46h-VY-Mae"/>
-                <constraint firstItem="ZeB-Cs-EDu" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="16" id="9cP-IC-pW7"/>
-                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="ZeB-Cs-EDu" secondAttribute="trailing" constant="16" id="hmc-aF-BZC"/>
+                <constraint firstItem="ZeB-Cs-EDu" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" constant="30" id="46h-VY-Mae"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" secondItem="IvN-qL-A4d" secondAttribute="bottom" constant="12" id="Hur-cw-pvl"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="IvN-qL-A4d" secondAttribute="trailing" constant="16" id="QTP-Ya-75S"/>
+                <constraint firstItem="IvN-qL-A4d" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="16" id="hIa-Tp-9wh"/>
+                <constraint firstItem="ZeB-Cs-EDu" firstAttribute="centerX" secondItem="fnl-2z-Ty3" secondAttribute="centerX" id="k3l-eb-u4x"/>
             </constraints>
             <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
             <point key="canvasLocation" x="33.5" y="53"/>

@@ -10,10 +10,10 @@ import Foundation
 import UIKit
 
 extension UIView {
-    func applyGradientWith(topColor : UIColor, bottomColor: UIColor) {
+    func applyGradientWith(_ colors: UIColor...) {
         let gradientLayer = CAGradientLayer()
-        gradientLayer.colors = [topColor.cgColor, bottomColor.cgColor]
-        gradientLayer.locations = [0.0, 1.0]
+        gradientLayer.colors = colors.map { $0.cgColor }
+//        gradientLayer.locations = [0.0, 1.0]
         gradientLayer.frame = self.bounds
         self.layer.insertSublayer(gradientLayer, at: 0)
     }
@@ -24,8 +24,8 @@ extension UIView {
     
     func cardStyle() {
         self.layer.cornerRadius = 20.0
-        self.layer.shadowColor = UIColor.gray.cgColor
-        self.layer.shadowOffset = CGSize(width: 0.0, height: 0.0)
+        self.layer.shadowColor = UIColor.darkGray.cgColor
+        self.layer.shadowOffset = CGSize(width: 2.0, height: 2.0)
         self.layer.shadowRadius = 12.0
         self.layer.shadowOpacity = 0.7
     }

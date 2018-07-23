@@ -32,6 +32,11 @@ class SlangViewerViewController: UIViewController, MainViewControllerProtocol {
             make.height.equalToSuperview().multipliedBy(0.6)
         }
     }
+    
+    override func viewDidLayoutSubviews() {
+        super.viewDidLayoutSubviews()
+        self.view.updateGradientLayerFrame(cornerRadius: 0.0)
+    }
 
 }
 

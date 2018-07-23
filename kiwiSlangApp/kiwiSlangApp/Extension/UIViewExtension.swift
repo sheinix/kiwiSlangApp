@@ -29,4 +29,13 @@ extension UIView {
         self.layer.shadowRadius = 12.0
         self.layer.shadowOpacity = 0.7
     }
+    
+    func updateGradientLayerFrame(cornerRadius : CGFloat) {
+        guard let subLayers = self.layer.sublayers, let gradient = subLayers[0] as? CAGradientLayer else { return }
+        CATransaction.begin()
+        CATransaction.setDisableActions(true)
+        gradient.frame = self.bounds
+        gradient.cornerRadius = cornerRadius
+        CATransaction.commit()
+    }
 }

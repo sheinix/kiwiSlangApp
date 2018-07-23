@@ -88,7 +88,7 @@
             <key>name</key>
             <string>JAFA</string>
             <key>meaning</key>
-            <string>Resident of Auckland</string>
+            <string>Resident of Auckland (not nice)</string>
             <key>imgName</key>
             <string></string>
             <key>countryCode</key>
@@ -338,7 +338,7 @@
             <key>name</key>
             <string>Spud</string>
             <key>meaning</key>
-            <string>Potatoe</string>
+            <string>Potato</string>
             <key>imgName</key>
             <string></string>
             <key>countryCode</key>
@@ -378,7 +378,7 @@
             <key>name</key>
             <string>Taking the piss</string>
             <key>meaning</key>
-            <string>Make fun of</string>
+            <string>Making fun of something or someone</string>
             <key>imgName</key>
             <string></string>
             <key>countryCode</key>
@@ -578,7 +578,7 @@
             <key>name</key>
             <string>Hungus</string>
             <key>meaning</key>
-            <string>Hungry person eating all the food</string>
+            <string>Hungry person who eats all the food</string>
             <key>imgName</key>
             <string></string>
             <key>countryCode</key>
@@ -626,16 +626,6 @@
         </dict>
         <dict>
             <key>name</key>
-            <string>Taking the piss</string>
-            <key>meaning</key>
-            <string>Make fun of</string>
-            <key>imgName</key>
-            <string></string>
-            <key>countryCode</key>
-            <string>NZ</string>
-        </dict>
-        <dict>
-            <key>name</key>
             <string>Piss Up</string>
             <key>meaning</key>
             <string>Party</string>
@@ -647,16 +637,6 @@
         <dict>
             <key>name</key>
             <string>Popsicle</string>
-            <key>meaning</key>
-            <string>Make fun of</string>
-            <key>imgName</key>
-            <string></string>
-            <key>countryCode</key>
-            <string>NZ</string>
-        </dict>
-        <dict>
-            <key>name</key>
-            <string>Popsical</string>
             <key>meaning</key>
             <string>Ice Block or Ice Lolly</string>
             <key>imgName</key>
@@ -698,7 +678,7 @@
             <key>name</key>
             <string>Sickie</string>
             <key>meaning</key>
-            <string>Taking a sick day off work</string>
+            <string>Taking a sick day when not sick</string>
             <key>imgName</key>
             <string></string>
             <key>countryCode</key>
@@ -788,7 +768,7 @@
             <key>name</key>
             <string>Buggar</string>
             <key>meaning</key>
-            <string>Disappointment</string>
+            <string>Expression of disappointment</string>
             <key>imgName</key>
             <string></string>
             <key>countryCode</key>
@@ -856,7 +836,7 @@
         </dict>
         <dict>
             <key>name</key>
-            <string>Flanel</string>
+            <string>Flannel</string>
             <key>meaning</key>
             <string>Face Cloth</string>
             <key>imgName</key>

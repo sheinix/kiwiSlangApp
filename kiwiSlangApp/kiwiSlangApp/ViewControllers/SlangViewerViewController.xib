@@ -30,7 +30,7 @@
                     <size key="shadowOffset" width="1" height="1"/>
                 </label>
                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Swipe the card to reveal more slang words!" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="IvN-qL-A4d">
-                    <rect key="frame" x="16" y="724" width="343" height="42"/>
+                    <rect key="frame" x="22.333333333333343" y="724" width="330.33333333333326" height="42"/>
                     <constraints>
                         <constraint firstAttribute="height" constant="42" id="9Pk-Ci-tfh"/>
                     </constraints>
@@ -45,8 +45,7 @@
             <constraints>
                 <constraint firstItem="ZeB-Cs-EDu" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" constant="30" id="46h-VY-Mae"/>
                 <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" secondItem="IvN-qL-A4d" secondAttribute="bottom" constant="12" id="Hur-cw-pvl"/>
-                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="IvN-qL-A4d" secondAttribute="trailing" constant="16" id="QTP-Ya-75S"/>
-                <constraint firstItem="IvN-qL-A4d" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="16" id="hIa-Tp-9wh"/>
+                <constraint firstItem="IvN-qL-A4d" firstAttribute="centerX" secondItem="fnl-2z-Ty3" secondAttribute="centerX" id="Wwv-z9-hUW"/>
                 <constraint firstItem="ZeB-Cs-EDu" firstAttribute="centerX" secondItem="fnl-2z-Ty3" secondAttribute="centerX" id="k3l-eb-u4x"/>
             </constraints>
             <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>

@@ -29,11 +29,6 @@ class CardView: UIView {
     
     override func layoutSubviews() {
         super.layoutSubviews()
-        guard let subLayers = self.layer.sublayers, let gradient = subLayers[0] as? CAGradientLayer else { return }
-        CATransaction.begin()
-        CATransaction.setDisableActions(true)
-        gradient.frame = self.bounds
-        gradient.cornerRadius = 20.0
-        CATransaction.commit()
+        self.updateGradientLayerFrame(cornerRadius: 20.0)
     }
 }

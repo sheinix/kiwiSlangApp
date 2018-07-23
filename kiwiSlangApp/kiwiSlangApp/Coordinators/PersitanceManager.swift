@@ -64,8 +64,9 @@ class PersitanceManager {
     
     public func loadSlangWordsFor(country: Countries) -> [SlangWord] {
         let realm = try! Realm()
-        let slangWords = realm.objects(SlangWord.self) //.shuffled()
-        return Array(slangWords)
+        print(ProcessInfo.processInfo.environment)
+        let slangWords = realm.objects(SlangWord.self).shuffled()
+        return slangWords
         
     }
 }

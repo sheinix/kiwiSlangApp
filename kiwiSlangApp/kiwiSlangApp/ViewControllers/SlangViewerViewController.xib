@@ -29,8 +29,8 @@
                     <color key="shadowColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     <size key="shadowOffset" width="1" height="1"/>
                 </label>
-                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Swipe the card to reveal more slang words!" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="IvN-qL-A4d">
-                    <rect key="frame" x="22.333333333333343" y="724" width="330.33333333333326" height="42"/>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Swipe the card to reveal more slang words!" textAlignment="center" lineBreakMode="wordWrap" baselineAdjustment="alignBaselines" minimumScaleFactor="0.29999999999999999" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="IvN-qL-A4d">
+                    <rect key="frame" x="20" y="724" width="335" height="42"/>
                     <constraints>
                         <constraint firstAttribute="height" constant="42" id="9Pk-Ci-tfh"/>
                     </constraints>
@@ -43,10 +43,12 @@
             </subviews>
             <color key="backgroundColor" red="0.22352941179999999" green="0.37254901959999998" blue="1" alpha="1" colorSpace="calibratedRGB"/>
             <constraints>
+                <constraint firstItem="IvN-qL-A4d" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="20" id="0hA-OT-hwY"/>
                 <constraint firstItem="ZeB-Cs-EDu" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" constant="30" id="46h-VY-Mae"/>
                 <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" secondItem="IvN-qL-A4d" secondAttribute="bottom" constant="12" id="Hur-cw-pvl"/>
                 <constraint firstItem="IvN-qL-A4d" firstAttribute="centerX" secondItem="fnl-2z-Ty3" secondAttribute="centerX" id="Wwv-z9-hUW"/>
-                <constraint firstItem="ZeB-Cs-EDu" firstAttribute="centerX" secondItem="fnl-2z-Ty3" secondAttribute="centerX" id="k3l-eb-u4x"/>
+                <constraint firstItem="ZeB-Cs-EDu" firstAttribute="centerX" secondItem="fnl-2z-Ty3" secondAttribute="centerX" priority="750" id="k3l-eb-u4x"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="IvN-qL-A4d" secondAttribute="trailing" constant="20" id="qej-Y9-QiJ"/>
             </constraints>
             <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
             <point key="canvasLocation" x="33.5" y="53"/>

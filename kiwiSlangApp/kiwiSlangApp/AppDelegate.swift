@@ -21,6 +21,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         setupAnalytics()
         let window = UIWindow(frame: UIScreen.main.bounds)
         self.window = window
+        
         PersitanceManager.shared.preloadData {
             self.applicationCoordinator = ApplicationCoordinator(window: window)
             self.applicationCoordinator?.start()

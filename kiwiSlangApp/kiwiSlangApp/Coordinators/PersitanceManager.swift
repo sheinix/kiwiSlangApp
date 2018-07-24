@@ -64,9 +64,12 @@ class PersitanceManager {
     
     public func loadSlangWordsFor(country: Countries) -> [SlangWord] {
         let realm = try! Realm()
-        print(ProcessInfo.processInfo.environment)
-        let slangWords = realm.objects(SlangWord.self).shuffled()
-        return slangWords
-        
+        if CommandLine.arguments.contains("--uitesting") {
+            let slangWords = realm.objects(SlangWord.self)
+            return Array(slangWords)
+        } else {
+            let slangWords = realm.objects(SlangWord.self).shuffled()
+            return Array(slangWords)
+        }
     }
 }

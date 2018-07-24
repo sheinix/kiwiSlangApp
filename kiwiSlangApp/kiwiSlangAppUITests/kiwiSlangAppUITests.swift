@@ -14,11 +14,10 @@ class KiwiSlangAppUITests: XCTestCase {
         super.setUp()
         continueAfterFailure = false
         let app = XCUIApplication()
+        app.launchArguments.append("--uitesting")
         setupSnapshot(app)
         app.launch()
-        
         snapshot("0Launch")
-        
     }
     
     override func tearDown() {
@@ -26,10 +25,15 @@ class KiwiSlangAppUITests: XCTestCase {
         super.tearDown()
     }
     
-    func testCards(app: XCUIApplication) {
-        
-
+    func testSwipeCards() {
+        let app = XCUIApplication()
+        app.launchArguments.append("--uitesting")
+        setupSnapshot(app)
+        app.swipeRight()
+        snapshot("01MainScreen")
+        app.swipeRight()
+        snapshot("02MainScreen")
+        app.swipeRight()
+        snapshot("03MainScreen")
     }
-    
-    
 }

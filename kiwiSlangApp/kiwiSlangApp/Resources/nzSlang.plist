@@ -6,6 +6,36 @@
 	<array>
         <dict>
             <key>name</key>
+            <string>Flat Tack</string>
+            <key>meaning</key>
+            <string>As fast as you can go</string>
+            <key>imgName</key>
+            <string></string>
+            <key>countryCode</key>
+            <string>NZ</string>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>Tiki Tour</string>
+            <key>meaning</key>
+            <string>Taking the long way</string>
+            <key>imgName</key>
+            <string></string>
+            <key>countryCode</key>
+            <string>NZ</string>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>Cuppa</string>
+            <key>meaning</key>
+            <string>Cup of Tea</string>
+            <key>imgName</key>
+            <string></string>
+            <key>countryCode</key>
+            <string>NZ</string>
+        </dict>
+        <dict>
+            <key>name</key>
             <string>Bob's your uncle</string>
             <key>meaning</key>
             <string>Well there you have it</string>
@@ -29,36 +59,6 @@
             <string>Knackered</string>
             <key>meaning</key>
             <string>Very tired</string>
-            <key>imgName</key>
-            <string></string>
-            <key>countryCode</key>
-            <string>NZ</string>
-        </dict>
-		 <dict>
-			<key>name</key>
-			<string>Flat Tack</string>
-			<key>meaning</key>
-			<string>As fast as you can go</string>
-			<key>imgName</key>
-			<string></string>
-			<key>countryCode</key>
-			<string>NZ</string>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>Tiki Tour</string>
-			<key>meaning</key>
-			<string>Taking the long way</string>
-			<key>imgName</key>
-			<string></string>
-			<key>countryCode</key>
-			<string>NZ</string>
-		</dict>
-        <dict>
-            <key>name</key>
-            <string>Cuppa</string>
-            <key>meaning</key>
-            <string>Cup of Tea</string>
             <key>imgName</key>
             <string></string>
             <key>countryCode</key>

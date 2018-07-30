@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="M4Y-Lb-cyx">
+    <device id="retina5_5" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Today View Controller-->
+        <scene sceneID="cwh-vc-ff4">
+            <objects>
+                <viewController id="M4Y-Lb-cyx" customClass="TodayViewController" customModule="KiwiSlangWidget" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" simulatedAppContext="notificationCenter" id="S3S-Oj-5AN">
+                        <rect key="frame" x="0.0" y="0.0" width="400" height="110"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Dad-Bq-Mii">
+                                <rect key="frame" x="0.0" y="0.0" width="400" height="110"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="As fast as you can go" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="03v-Kn-UbY">
+                                        <rect key="frame" x="8" y="62" width="384" height="21"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" relation="lessThanOrEqual" constant="45" id="8MM-yN-kRK"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" weight="light" pointSize="17"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Flat Tack" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Lm8-pA-fB1">
+                                        <rect key="frame" x="8" y="32" width="384" height="24"/>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" alpha="0.80000000000000004" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Slang of the day" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1AN-4I-198">
+                                        <rect key="frame" x="8" y="8" width="343" height="17"/>
+                                        <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="14"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" red="0.22352941179999999" green="0.37254901959999998" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="1AN-4I-198" secondAttribute="trailing" constant="49" id="4aC-7Q-9I1"/>
+                                    <constraint firstItem="Lm8-pA-fB1" firstAttribute="top" secondItem="1AN-4I-198" secondAttribute="bottom" constant="7" id="DqI-Yr-d73"/>
+                                    <constraint firstItem="Lm8-pA-fB1" firstAttribute="trailing" secondItem="03v-Kn-UbY" secondAttribute="trailing" id="G5h-2z-te9"/>
+                                    <constraint firstItem="1AN-4I-198" firstAttribute="leading" secondItem="Lm8-pA-fB1" secondAttribute="leading" id="S8f-8H-IsG"/>
+                                    <constraint firstItem="03v-Kn-UbY" firstAttribute="top" secondItem="Lm8-pA-fB1" secondAttribute="bottom" constant="6" id="UpR-sG-ak9"/>
+                                    <constraint firstAttribute="trailing" secondItem="03v-Kn-UbY" secondAttribute="trailing" constant="8" id="eK6-Zk-RwJ"/>
+                                    <constraint firstItem="Lm8-pA-fB1" firstAttribute="leading" secondItem="Dad-Bq-Mii" secondAttribute="leading" constant="8" id="mcM-2v-BSX"/>
+                                    <constraint firstItem="03v-Kn-UbY" firstAttribute="leading" secondItem="Dad-Bq-Mii" secondAttribute="leading" constant="8" id="tuR-GH-aJc"/>
+                                    <constraint firstItem="1AN-4I-198" firstAttribute="top" secondItem="Dad-Bq-Mii" secondAttribute="top" constant="8" id="xSU-Jb-bc1"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <constraints>
+                            <constraint firstItem="ssy-KU-ocm" firstAttribute="trailing" secondItem="Dad-Bq-Mii" secondAttribute="trailing" id="MZ7-4T-Wta"/>
+                            <constraint firstAttribute="bottom" secondItem="Dad-Bq-Mii" secondAttribute="bottom" id="h1Y-GW-jRt"/>
+                            <constraint firstItem="Dad-Bq-Mii" firstAttribute="top" secondItem="S3S-Oj-5AN" secondAttribute="top" id="osh-xT-Een"/>
+                            <constraint firstItem="Dad-Bq-Mii" firstAttribute="leading" secondItem="ssy-KU-ocm" secondAttribute="leading" id="wAg-nI-YWK"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="ssy-KU-ocm"/>
+                    </view>
+                    <extendedEdge key="edgesForExtendedLayout"/>
+                    <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+                    <size key="freeformSize" width="400" height="110"/>
+                    <connections>
+                        <outlet property="backgroundView" destination="Dad-Bq-Mii" id="9oJ-Og-amw"/>
+                        <outlet property="slangDescriptionLabel" destination="03v-Kn-UbY" id="UgU-2r-5Q5"/>
+                        <outlet property="slangOfTheDayLabel" destination="1AN-4I-198" id="N1t-8h-6t4"/>
+                        <outlet property="slangWordLabel" destination="Lm8-pA-fB1" id="7ft-B9-0wX"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="vXp-U4-Rya" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="116.8" y="115.14242878560721"/>
+        </scene>
+    </scenes>
+</document>

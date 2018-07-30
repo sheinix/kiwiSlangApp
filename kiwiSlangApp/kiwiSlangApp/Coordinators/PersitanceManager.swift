@@ -8,7 +8,7 @@
 
 import UIKit
 import RealmSwift
-import Realm
+import AFDateHelper
 
 private let persistanceSessionManager = PersitanceManager()
 
@@ -19,9 +19,24 @@ class PersitanceManager {
     }
     
    
+    private let config : Realm.Configuration = {
+        
+        let directory: URL = FileManager.default.containerURL(forSecurityApplicationGroupIdentifier: ConfigurationConstant.groupName)!
+        let realmPath = directory.path.appending(RealmDefault.dbProdName)
+        let url = URL(fileURLWithPath: realmPath)
+        let config = Realm.Configuration(fileURL: url, schemaVersion: 1, migrationBlock: { (migration, oldSchemaVersion) in
+            if (oldSchemaVersion < 1) {
+                migration.enumerateObjects(ofType: SlangWord.className()) { oldObject, newObject in
+                }
+            }
+        })
+        
+        return config
+    }()
+    
     // MARK: - Data Pre-Loading
     
-    func preloadData(completion: () -> ()) {
+    func preloadData(completion: () -> Void) {
         
         guard let wordList = loadPlist() else { return }
         let slangWords = WordParser.parse(list: wordList)
@@ -30,7 +45,7 @@ class PersitanceManager {
     }
     
     fileprivate func save(wordList : [SlangWord]) {
-        let realm = try! Realm()
+        let realm = try! Realm(configuration: self.config)
         try! realm.write {
             realm.add(wordList, update: true)
         }
@@ -62,8 +77,8 @@ class PersitanceManager {
         return list
     }
     
-    public func loadSlangWordsFor(country: Countries) -> [SlangWord] {
-        let realm = try! Realm()
+    public func loadSlangWordsFor(country: Countries) -> [SlangWordProtocol] {
+        let realm = try! Realm(configuration: self.config)
         if CommandLine.arguments.contains("--uitesting") {
             let slangWords = realm.objects(SlangWord.self)
             return Array(slangWords)
@@ -71,5 +86,43 @@ class PersitanceManager {
             let slangWords = realm.objects(SlangWord.self).shuffled()
             return Array(slangWords)
         }
+    }
+    
+    public func getWordOfTheDay() -> TodayExtensionUsable? {
+        
+        let realm = try! Realm(configuration: self.config)
+        let words = realm.objects(SlangWord.self)
+        let usedWords = words.filter({ $0.isUsed })
+        let usedWordOfTheDay = usedWords.filter ({ Date().compare(DateComparisonType.isSameDay(as: $0.dateUsed!)) })
+        if usedWordOfTheDay.count > 0 {
+            return usedWordOfTheDay.first ?? nil
+        }
+        
+        let unusedWords = words.filter({ !$0.isUsed })
+        guard unusedWords.count > 0 else {
+            updateToUnused(words: words)
+            return words.first ?? nil
+        }
+        
+        let word = unusedWords.first!
+        markAsUsed(word: word)
+        
+        return word
+    }
+    
+    fileprivate func markAsUsed(word: SlangWord) {
+        let realm = try! Realm(configuration: self.config)
+        realm.beginWrite()
+        word.dateUsed = Date()
+        try! realm.commitWrite()
+    }
+    
+    fileprivate func updateToUnused(words: Results<SlangWord>) {
+        let realm = try! Realm(configuration: self.config)
+        realm.beginWrite()
+        words.forEach { (slangWord) in
+            slangWord.dateUsed = nil
+        }
+        try! realm.commitWrite()
     }
 }

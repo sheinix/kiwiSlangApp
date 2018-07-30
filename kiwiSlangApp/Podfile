@@ -1,17 +1,27 @@
 # Uncomment the next line to define a global platform for your project
-# platform :ios, '9.0'
+
+platform :ios, '10.3'
+use_frameworks!
+xcodeproj 'kiwiSlangApp.xcodeproj'
 
  target 'kiwiSlangApp' do
-  use_frameworks!
-	pod 'SnapKit', '~> 4.0.0'
+    
+	  pod 'SnapKit', '~> 4.0.0'
   	pod 'Fabric'
   	pod 'Crashlytics'
-  	pod 'Firebase/Core'
-  	pod 'Firebase/Messaging'
+#  	pod 'Firebase/Core'
+#  	pod 'Firebase/Messaging'
   	pod 'SwiftGen'
   	pod 'SwiftLint'
   	pod 'Koloda'
-  	pod 'RealmSwift'
+  	pod 'RealmSwift'    
+    pod 'AFDateHelper', '~> 4.2.2'
+
+    target 'KiwiSlangWidget' do
+      inherit! :search_paths
+      pod 'RealmSwift'
+      pod 'AFDateHelper', '~> 4.2.2'
+    end
 end
 
   target 'kiwiSlangAppTests' do

@@ -5,17 +5,18 @@
 //  Created by Juan Nuvreni on 22/07/2018.
 //  Copyright © 2018 sheinix. All rights reserved.
 //
+// swiftlint:disable force_cast
 
 import Foundation
 import RealmSwift
 import UIKit
-
 
 class SlangWord : Object {
     @objc dynamic var wordName : String?
     @objc dynamic var wordMeaning: String?
     @objc dynamic var imageName: String?
     @objc dynamic var country: Country?
+    @objc dynamic var dateUsed : Date?
     
     override open static func primaryKey() -> String? {
         return "wordName"
@@ -44,5 +45,11 @@ extension SlangWord : SlangWordProtocol {
         card.mainLabel.text = word
         card.detailLabel.text = explanation
         return card
+    }
+}
+
+extension SlangWord : TodayExtensionUsable {
+    var isUsed : Bool {
+        return dateUsed != nil
     }
 }

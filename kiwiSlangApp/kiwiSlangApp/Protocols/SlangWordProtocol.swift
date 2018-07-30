@@ -16,3 +16,7 @@ protocol SlangWordProtocol {
     var image : UIImage? { get }
     var view : UIView? { get }
 }
+
+protocol TodayExtensionUsable : SlangWordProtocol {
+    var isUsed : Bool { get }
+}

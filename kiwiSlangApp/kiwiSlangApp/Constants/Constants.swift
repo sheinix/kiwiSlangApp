@@ -11,3 +11,11 @@ import Foundation
 struct WordLists {
     static let nz : String = "nzSlang"
 }
+
+struct RealmDefault {
+    static let dbProdName = "Production.realm"
+}
+
+struct ConfigurationConstant {
+    static let groupName = "group.kiwiSlangApp"
+}

@@ -7,8 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		298D219EE20485DF1A7C90E9 /* libPods-kiwiSlangAppUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C47163C5E69FD9D7DA8043C /* libPods-kiwiSlangAppUITests.a */; };
-		7712DCE3B7ACF91C064E6142 /* libPods-kiwiSlangAppTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 207ED7F0741B7568BF7CE4B0 /* libPods-kiwiSlangAppTests.a */; };
+		0A4D97DD1CA502AE71667C61 /* Pods_KiwiSlangWidget.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9325A1262C38F232DF31BAE7 /* Pods_KiwiSlangWidget.framework */; };
+		331A0F3725DB4C29A2EC4812 /* Pods_kiwiSlangAppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4319A762BB74D1D9BAEB3CF4 /* Pods_kiwiSlangAppTests.framework */; };
+		3EE88BA281E064D354C7A4CB /* Pods_kiwiSlangAppUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C16F4F5785BA6D65462B7CA9 /* Pods_kiwiSlangAppUITests.framework */; };
+		563B1A4981DEF019239EA412 /* Pods_kiwiSlangApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD09502F210C150A0040D0D8 /* Pods_kiwiSlangApp.framework */; };
 		BD0D99A8210122CB00FBBA2F /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = BD0D99AA210122CB00FBBA2F /* Localizable.strings */; };
 		BD0D99B02101357B00FBBA2F /* AppCoordinatorProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD0D99AF2101357B00FBBA2F /* AppCoordinatorProtocol.swift */; };
 		BD0D99B3210135B300FBBA2F /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD0D99B2210135B300FBBA2F /* AppCoordinator.swift */; };
@@ -40,6 +42,14 @@
 		BD259B84210565B400C7D0DE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD96BFA521011DF800A354FC /* Assets.xcassets */; };
 		BD259B85210565B500C7D0DE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD96BFA521011DF800A354FC /* Assets.xcassets */; };
 		BD259B8721056E1800C7D0DE /* SnapshotHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD259B8621056E1700C7D0DE /* SnapshotHelper.swift */; };
+		BD317CAF210C3251006A7948 /* SlangWordProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD0D99C9210144A200FBBA2F /* SlangWordProtocol.swift */; };
+		BD317CB0210C325F006A7948 /* PersitanceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD0D9A1421014E5C00FBBA2F /* PersitanceManager.swift */; };
+		BD58AC78210C0A3B00185FF3 /* UIViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD0D99BF2101385D00FBBA2F /* UIViewExtension.swift */; };
+		BD58AC79210C0A4700185FF3 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD0D99BC2101372B00FBBA2F /* Colors.swift */; };
+		BD58AC7A210C0BB500185FF3 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD0D99BA2101372500FBBA2F /* Constants.swift */; };
+		BD58AC7C210C0D3E00185FF3 /* CountryFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD19107F210156AD00837158 /* CountryFactory.swift */; };
+		BD7B3D6F210D715900D0FCE0 /* Localized.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD259B7D2105364500C7D0DE /* Localized.swift */; };
+		BD7B3D70210D716500D0FCE0 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = BD0D99AA210122CB00FBBA2F /* Localizable.strings */; };
 		BD807160210458E6008BE4B1 /* CountryFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD19107F210156AD00837158 /* CountryFactory.swift */; };
 		BD807161210458E7008BE4B1 /* CountryFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD19107F210156AD00837158 /* CountryFactory.swift */; };
 		BD80716B21045A09008BE4B1 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD0D99CB210145D800FBBA2F /* MainViewController.swift */; };
@@ -73,7 +83,16 @@
 		BD96BFA921011DF800A354FC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD96BFA721011DF800A354FC /* LaunchScreen.storyboard */; };
 		BD96BFB421011DF800A354FC /* kiwiSlangAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD96BFB321011DF800A354FC /* kiwiSlangAppTests.swift */; };
 		BD96BFBF21011DF800A354FC /* kiwiSlangAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD96BFBE21011DF800A354FC /* kiwiSlangAppUITests.swift */; };
+		BDC10CE3210C401B0020AF22 /* WordParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD191081210158B600837158 /* WordParser.swift */; };
+		BDC10CE4210C40260020AF22 /* SlangWord.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD222B4A21044AF70038699C /* SlangWord.swift */; };
+		BDC10CE5210C40340020AF22 /* Country.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD222B4821044A7C0038699C /* Country.swift */; };
+		BDC10CE6210C40490020AF22 /* CollectionExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDEB29EE2104D6BF006874BA /* CollectionExtension.swift */; };
+		BDC10CE7210C40580020AF22 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD80718321045C10008BE4B1 /* CardView.swift */; };
 		BDEB29EF2104D6BF006874BA /* CollectionExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDEB29EE2104D6BF006874BA /* CollectionExtension.swift */; };
+		BDFAA244210C006D003D929C /* NotificationCenter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BDFAA243210C006D003D929C /* NotificationCenter.framework */; };
+		BDFAA247210C006D003D929C /* TodayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDFAA246210C006D003D929C /* TodayViewController.swift */; };
+		BDFAA24A210C006D003D929C /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BDFAA248210C006D003D929C /* MainInterface.storyboard */; };
+		BDFAA24E210C006D003D929C /* KiwiSlangWidget.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = BDFAA242210C006C003D929C /* KiwiSlangWidget.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		C82C278D8DB38C3A01E26F05 /* Pods_kiwiSlangApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9EB978BBE168478F0F062CE /* Pods_kiwiSlangApp.framework */; };
 /* End PBXBuildFile section */
 
@@ -92,16 +111,43 @@
 			remoteGlobalIDString = BD96BF9721011DF500A354FC;
 			remoteInfo = kiwiSlangApp;
 		};
+		BDFAA24C210C006D003D929C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BD96BF9021011DF500A354FC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BDFAA241210C006C003D929C;
+			remoteInfo = KiwiSlangWidget;
+		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		BDFAA253210C006D003D929C /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				BDFAA24E210C006D003D929C /* KiwiSlangWidget.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
-		0C47163C5E69FD9D7DA8043C /* libPods-kiwiSlangAppUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-kiwiSlangAppUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		13F66C6F30300D43A2CE82B0 /* Pods-kiwiSlangAppTests.staging.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-kiwiSlangAppTests.staging.xcconfig"; path = "Pods/Target Support Files/Pods-kiwiSlangAppTests/Pods-kiwiSlangAppTests.staging.xcconfig"; sourceTree = "<group>"; };
 		141DF031864DDC8413FB884D /* Pods-kiwiSlangAppUITests.staging.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-kiwiSlangAppUITests.staging.xcconfig"; path = "Pods/Target Support Files/Pods-kiwiSlangAppUITests/Pods-kiwiSlangAppUITests.staging.xcconfig"; sourceTree = "<group>"; };
-		207ED7F0741B7568BF7CE4B0 /* libPods-kiwiSlangAppTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-kiwiSlangAppTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1A1D3484A5EBB1A03DF07557 /* Pods-KiwiSlangWidget.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KiwiSlangWidget.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KiwiSlangWidget/Pods-KiwiSlangWidget.debug.xcconfig"; sourceTree = "<group>"; };
+		4319A762BB74D1D9BAEB3CF4 /* Pods_kiwiSlangAppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_kiwiSlangAppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B8FC6037EE9C0747E9C1E25 /* Pods-KiwiSlangWidget.staging.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KiwiSlangWidget.staging.xcconfig"; path = "Pods/Target Support Files/Pods-KiwiSlangWidget/Pods-KiwiSlangWidget.staging.xcconfig"; sourceTree = "<group>"; };
+		6041E7029AA9F967E41696A9 /* Pods-KiwiSlangWidget.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KiwiSlangWidget.release.xcconfig"; path = "Pods/Target Support Files/Pods-KiwiSlangWidget/Pods-KiwiSlangWidget.release.xcconfig"; sourceTree = "<group>"; };
+		6F9C267DDEF2FF27113C19BB /* Pods_kiwiSlangApp_KiwiSlangWidget.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_kiwiSlangApp_KiwiSlangWidget.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9325A1262C38F232DF31BAE7 /* Pods_KiwiSlangWidget.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KiwiSlangWidget.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		99B4C244B54A12F46EF14B12 /* Pods-kiwiSlangApp-KiwiSlangWidget.staging.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-kiwiSlangApp-KiwiSlangWidget.staging.xcconfig"; path = "Pods/Target Support Files/Pods-kiwiSlangApp-KiwiSlangWidget/Pods-kiwiSlangApp-KiwiSlangWidget.staging.xcconfig"; sourceTree = "<group>"; };
 		99F21EE411FE5335685929DE /* Pods-kiwiSlangApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-kiwiSlangApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-kiwiSlangApp/Pods-kiwiSlangApp.release.xcconfig"; sourceTree = "<group>"; };
 		9BED4DE99D03649D3504BD4E /* Pods-kiwiSlangAppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-kiwiSlangAppUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-kiwiSlangAppUITests/Pods-kiwiSlangAppUITests.release.xcconfig"; sourceTree = "<group>"; };
 		B11FE4A97989E752A2B26C90 /* Pods-kiwiSlangApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-kiwiSlangApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-kiwiSlangApp/Pods-kiwiSlangApp.debug.xcconfig"; sourceTree = "<group>"; };
+		BD09502F210C150A0040D0D8 /* Pods_kiwiSlangApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Pods_kiwiSlangApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD0D99A9210122CB00FBBA2F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		BD0D99AC210122EC00FBBA2F /* es-419 */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "es-419"; path = "es-419.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
 		BD0D99AD210122EC00FBBA2F /* es-419 */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "es-419"; path = "es-419.lproj/Localizable.strings"; sourceTree = "<group>"; };
@@ -127,6 +173,13 @@
 		BD259B7C2105364500C7D0DE /* Images.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Images.swift; sourceTree = "<group>"; };
 		BD259B7D2105364500C7D0DE /* Localized.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Localized.swift; sourceTree = "<group>"; };
 		BD259B8621056E1700C7D0DE /* SnapshotHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SnapshotHelper.swift; path = fastlane/SnapshotHelper.swift; sourceTree = SOURCE_ROOT; };
+		BD58AC70210C06C100185FF3 /* Pods_kiwiSlangApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Pods_kiwiSlangApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD58AC74210C08DB00185FF3 /* kiwiSlangApp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = kiwiSlangApp.entitlements; sourceTree = "<group>"; };
+		BD58AC75210C090600185FF3 /* KiwiSlangWidget.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = KiwiSlangWidget.entitlements; sourceTree = "<group>"; };
+		BD58AC76210C0A0C00185FF3 /* RealmSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = RealmSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD58AC7D210C0FEB00185FF3 /* Pods_kiwiSlangApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Pods_kiwiSlangApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD7B3D6C210D620000D0FCE0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/MainInterface.strings; sourceTree = "<group>"; };
+		BD7B3D6E210D622C00D0FCE0 /* es-419 */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "es-419"; path = "es-419.lproj/MainInterface.strings"; sourceTree = "<group>"; };
 		BD80718121045B63008BE4B1 /* CardView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CardView.xib; sourceTree = "<group>"; };
 		BD80718321045C10008BE4B1 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 		BD96BF9821011DF500A354FC /* kiwiSlangApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = kiwiSlangApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -140,12 +193,22 @@
 		BD96BFBA21011DF800A354FC /* kiwiSlangAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = kiwiSlangAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD96BFBE21011DF800A354FC /* kiwiSlangAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = kiwiSlangAppUITests.swift; sourceTree = "<group>"; };
 		BD96BFC021011DF800A354FC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BDE4EE29210C185B007ABCAE /* RealmSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = RealmSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BDEB29EE2104D6BF006874BA /* CollectionExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionExtension.swift; sourceTree = "<group>"; };
+		BDEFFA83210C35CE00F3913F /* RealmSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = RealmSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BDFAA242210C006C003D929C /* KiwiSlangWidget.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = KiwiSlangWidget.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		BDFAA243210C006D003D929C /* NotificationCenter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NotificationCenter.framework; path = System/Library/Frameworks/NotificationCenter.framework; sourceTree = SDKROOT; };
+		BDFAA246210C006D003D929C /* TodayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodayViewController.swift; sourceTree = "<group>"; };
+		BDFAA249210C006D003D929C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
+		BDFAA24B210C006D003D929C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BF4AEC51A3BC3BA69D8338E7 /* Pods-kiwiSlangAppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-kiwiSlangAppUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-kiwiSlangAppUITests/Pods-kiwiSlangAppUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		C16F4F5785BA6D65462B7CA9 /* Pods_kiwiSlangAppUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_kiwiSlangAppUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C67050A55078D1738C3EE80A /* Pods-kiwiSlangAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-kiwiSlangAppTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-kiwiSlangAppTests/Pods-kiwiSlangAppTests.release.xcconfig"; sourceTree = "<group>"; };
 		C894BE0003F8B499BD26809F /* Pods-kiwiSlangApp.staging.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-kiwiSlangApp.staging.xcconfig"; path = "Pods/Target Support Files/Pods-kiwiSlangApp/Pods-kiwiSlangApp.staging.xcconfig"; sourceTree = "<group>"; };
 		C9EB978BBE168478F0F062CE /* Pods_kiwiSlangApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_kiwiSlangApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E12F5BEEA21214B1874FE856 /* Pods-kiwiSlangAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-kiwiSlangAppTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-kiwiSlangAppTests/Pods-kiwiSlangAppTests.debug.xcconfig"; sourceTree = "<group>"; };
+		E6E8A287A857F9446BCB8BC8 /* Pods-kiwiSlangApp-KiwiSlangWidget.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-kiwiSlangApp-KiwiSlangWidget.release.xcconfig"; path = "Pods/Target Support Files/Pods-kiwiSlangApp-KiwiSlangWidget/Pods-kiwiSlangApp-KiwiSlangWidget.release.xcconfig"; sourceTree = "<group>"; };
+		F53050451F2BD460BA62EBEF /* Pods-kiwiSlangApp-KiwiSlangWidget.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-kiwiSlangApp-KiwiSlangWidget.debug.xcconfig"; path = "Pods/Target Support Files/Pods-kiwiSlangApp-KiwiSlangWidget/Pods-kiwiSlangApp-KiwiSlangWidget.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -154,6 +217,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C82C278D8DB38C3A01E26F05 /* Pods_kiwiSlangApp.framework in Frameworks */,
+				563B1A4981DEF019239EA412 /* Pods_kiwiSlangApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -161,7 +225,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7712DCE3B7ACF91C064E6142 /* libPods-kiwiSlangAppTests.a in Frameworks */,
+				331A0F3725DB4C29A2EC4812 /* Pods_kiwiSlangAppTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -169,7 +233,16 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				298D219EE20485DF1A7C90E9 /* libPods-kiwiSlangAppUITests.a in Frameworks */,
+				3EE88BA281E064D354C7A4CB /* Pods_kiwiSlangAppUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDFAA23F210C006C003D929C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDFAA244210C006D003D929C /* NotificationCenter.framework in Frameworks */,
+				0A4D97DD1CA502AE71667C61 /* Pods_KiwiSlangWidget.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -179,9 +252,18 @@
 		6A23FD01D9909BC96882C65D /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				BDEFFA83210C35CE00F3913F /* RealmSwift.framework */,
+				BDE4EE29210C185B007ABCAE /* RealmSwift.framework */,
+				BD09502F210C150A0040D0D8 /* Pods_kiwiSlangApp.framework */,
+				BD58AC7D210C0FEB00185FF3 /* Pods_kiwiSlangApp.framework */,
+				BD58AC76210C0A0C00185FF3 /* RealmSwift.framework */,
+				BD58AC70210C06C100185FF3 /* Pods_kiwiSlangApp.framework */,
 				C9EB978BBE168478F0F062CE /* Pods_kiwiSlangApp.framework */,
-				207ED7F0741B7568BF7CE4B0 /* libPods-kiwiSlangAppTests.a */,
-				0C47163C5E69FD9D7DA8043C /* libPods-kiwiSlangAppUITests.a */,
+				BDFAA243210C006D003D929C /* NotificationCenter.framework */,
+				9325A1262C38F232DF31BAE7 /* Pods_KiwiSlangWidget.framework */,
+				6F9C267DDEF2FF27113C19BB /* Pods_kiwiSlangApp_KiwiSlangWidget.framework */,
+				4319A762BB74D1D9BAEB3CF4 /* Pods_kiwiSlangAppTests.framework */,
+				C16F4F5785BA6D65462B7CA9 /* Pods_kiwiSlangAppUITests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -288,6 +370,7 @@
 				BD96BF9A21011DF500A354FC /* kiwiSlangApp */,
 				BD96BFB221011DF800A354FC /* kiwiSlangAppTests */,
 				BD96BFBD21011DF800A354FC /* kiwiSlangAppUITests */,
+				BDFAA245210C006D003D929C /* KiwiSlangWidget */,
 				BD96BF9921011DF500A354FC /* Products */,
 				DC81F11C27A35866A480F885 /* Pods */,
 				6A23FD01D9909BC96882C65D /* Frameworks */,
@@ -300,6 +383,7 @@
 				BD96BF9821011DF500A354FC /* kiwiSlangApp.app */,
 				BD96BFAF21011DF800A354FC /* kiwiSlangAppTests.xctest */,
 				BD96BFBA21011DF800A354FC /* kiwiSlangAppUITests.xctest */,
+				BDFAA242210C006C003D929C /* KiwiSlangWidget.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -307,6 +391,7 @@
 		BD96BF9A21011DF500A354FC /* kiwiSlangApp */ = {
 			isa = PBXGroup;
 			children = (
+				BD58AC74210C08DB00185FF3 /* kiwiSlangApp.entitlements */,
 				BD96BF9B21011DF500A354FC /* AppDelegate.swift */,
 				BD0D99B8210136BD00FBBA2F /* Coordinators */,
 				BD0D99C62101442000FBBA2F /* ViewModels */,
@@ -343,6 +428,17 @@
 			path = kiwiSlangAppUITests;
 			sourceTree = "<group>";
 		};
+		BDFAA245210C006D003D929C /* KiwiSlangWidget */ = {
+			isa = PBXGroup;
+			children = (
+				BD58AC75210C090600185FF3 /* KiwiSlangWidget.entitlements */,
+				BDFAA246210C006D003D929C /* TodayViewController.swift */,
+				BDFAA248210C006D003D929C /* MainInterface.storyboard */,
+				BDFAA24B210C006D003D929C /* Info.plist */,
+			);
+			path = KiwiSlangWidget;
+			sourceTree = "<group>";
+		};
 		DC81F11C27A35866A480F885 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -355,6 +451,12 @@
 				C894BE0003F8B499BD26809F /* Pods-kiwiSlangApp.staging.xcconfig */,
 				13F66C6F30300D43A2CE82B0 /* Pods-kiwiSlangAppTests.staging.xcconfig */,
 				141DF031864DDC8413FB884D /* Pods-kiwiSlangAppUITests.staging.xcconfig */,
+				F53050451F2BD460BA62EBEF /* Pods-kiwiSlangApp-KiwiSlangWidget.debug.xcconfig */,
+				E6E8A287A857F9446BCB8BC8 /* Pods-kiwiSlangApp-KiwiSlangWidget.release.xcconfig */,
+				99B4C244B54A12F46EF14B12 /* Pods-kiwiSlangApp-KiwiSlangWidget.staging.xcconfig */,
+				1A1D3484A5EBB1A03DF07557 /* Pods-KiwiSlangWidget.debug.xcconfig */,
+				6041E7029AA9F967E41696A9 /* Pods-KiwiSlangWidget.release.xcconfig */,
+				4B8FC6037EE9C0747E9C1E25 /* Pods-KiwiSlangWidget.staging.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -375,11 +477,12 @@
 				BD96BF9621011DF500A354FC /* Resources */,
 				BD0D99A1210120B700FBBA2F /* Fabric */,
 				C4E60844EABDE77E8A8C56A7 /* [CP] Embed Pods Frameworks */,
-				4FC9A528EAB7E4611A4510A7 /* [CP] Copy Pods Resources */,
+				BDFAA253210C006D003D929C /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				BDFAA24D210C006D003D929C /* PBXTargetDependency */,
 			);
 			name = kiwiSlangApp;
 			productName = kiwiSlangApp;
@@ -394,8 +497,6 @@
 				BD96BFAB21011DF800A354FC /* Sources */,
 				BD96BFAC21011DF800A354FC /* Frameworks */,
 				BD96BFAD21011DF800A354FC /* Resources */,
-				A664ECD0675A14CE4C8BDF34 /* [CP] Embed Pods Frameworks */,
-				872DDE0C596F983DC514305C /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -415,8 +516,6 @@
 				BD96BFB621011DF800A354FC /* Sources */,
 				BD96BFB721011DF800A354FC /* Frameworks */,
 				BD96BFB821011DF800A354FC /* Resources */,
-				C5E7BC27DEAD564B30DFA9C5 /* [CP] Embed Pods Frameworks */,
-				2023E41E2D9F2635A3CE9F8B /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -427,6 +526,24 @@
 			productName = kiwiSlangAppUITests;
 			productReference = BD96BFBA21011DF800A354FC /* kiwiSlangAppUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		BDFAA241210C006C003D929C /* KiwiSlangWidget */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BDFAA252210C006D003D929C /* Build configuration list for PBXNativeTarget "KiwiSlangWidget" */;
+			buildPhases = (
+				F2EC7D21C597E71A55CE2B30 /* [CP] Check Pods Manifest.lock */,
+				BDFAA23E210C006C003D929C /* Sources */,
+				BDFAA23F210C006C003D929C /* Frameworks */,
+				BDFAA240210C006C003D929C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KiwiSlangWidget;
+			productName = KiwiSlangWidget;
+			productReference = BDFAA242210C006C003D929C /* KiwiSlangWidget.appex */;
+			productType = "com.apple.product-type.app-extension";
 		};
 /* End PBXNativeTarget section */
 
@@ -440,6 +557,11 @@
 				TargetAttributes = {
 					BD96BF9721011DF500A354FC = {
 						CreatedOnToolsVersion = 9.4.1;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+						};
 					};
 					BD96BFAE21011DF800A354FC = {
 						CreatedOnToolsVersion = 9.4.1;
@@ -448,6 +570,14 @@
 					BD96BFB921011DF800A354FC = {
 						CreatedOnToolsVersion = 9.4.1;
 						TestTargetID = BD96BF9721011DF500A354FC;
+					};
+					BDFAA241210C006C003D929C = {
+						CreatedOnToolsVersion = 9.4.1;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -468,6 +598,7 @@
 				BD96BF9721011DF500A354FC /* kiwiSlangApp */,
 				BD96BFAE21011DF800A354FC /* kiwiSlangAppTests */,
 				BD96BFB921011DF800A354FC /* kiwiSlangAppUITests */,
+				BDFAA241210C006C003D929C /* KiwiSlangWidget */,
 			);
 		};
 /* End PBXProject section */
@@ -511,6 +642,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		BDFAA240210C006C003D929C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDFAA24A210C006D003D929C /* MainInterface.storyboard in Resources */,
+				BD7B3D70210D716500D0FCE0 /* Localizable.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
@@ -530,36 +670,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		2023E41E2D9F2635A3CE9F8B /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-kiwiSlangAppUITests/Pods-kiwiSlangAppUITests-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		4FC9A528EAB7E4611A4510A7 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-kiwiSlangApp/Pods-kiwiSlangApp-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		5C18C4F49DD1D88F9D1C68A8 /* [CP] Check Pods Manifest.lock */ = {
@@ -596,36 +706,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		872DDE0C596F983DC514305C /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-kiwiSlangAppTests/Pods-kiwiSlangAppTests-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		A664ECD0675A14CE4C8BDF34 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-kiwiSlangAppTests/Pods-kiwiSlangAppTests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		BD0D999D2101202500FBBA2F /* SwiftLint */ = {
@@ -692,24 +772,20 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-kiwiSlangApp/Pods-kiwiSlangApp-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/AFDateHelper/AFDateHelper.framework",
 				"${BUILT_PRODUCTS_DIR}/Koloda/Koloda.framework",
-				"${BUILT_PRODUCTS_DIR}/Protobuf/Protobuf.framework",
 				"${BUILT_PRODUCTS_DIR}/Realm/Realm.framework",
 				"${BUILT_PRODUCTS_DIR}/RealmSwift/RealmSwift.framework",
 				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
-				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
 				"${BUILT_PRODUCTS_DIR}/pop/pop.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AFDateHelper.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Koloda.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Protobuf.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Realm.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RealmSwift.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/pop.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -717,19 +793,22 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-kiwiSlangApp/Pods-kiwiSlangApp-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		C5E7BC27DEAD564B30DFA9C5 /* [CP] Embed Pods Frameworks */ = {
+		F2EC7D21C597E71A55CE2B30 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
 			);
-			name = "[CP] Embed Pods Frameworks";
+			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-KiwiSlangWidget-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-kiwiSlangAppUITests/Pods-kiwiSlangAppUITests-frameworks.sh\"\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -804,6 +883,26 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		BDFAA23E210C006C003D929C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDC10CE6210C40490020AF22 /* CollectionExtension.swift in Sources */,
+				BDC10CE4210C40260020AF22 /* SlangWord.swift in Sources */,
+				BD58AC7A210C0BB500185FF3 /* Constants.swift in Sources */,
+				BD58AC78210C0A3B00185FF3 /* UIViewExtension.swift in Sources */,
+				BD317CB0210C325F006A7948 /* PersitanceManager.swift in Sources */,
+				BD58AC79210C0A4700185FF3 /* Colors.swift in Sources */,
+				BDC10CE3210C401B0020AF22 /* WordParser.swift in Sources */,
+				BD317CAF210C3251006A7948 /* SlangWordProtocol.swift in Sources */,
+				BDFAA247210C006D003D929C /* TodayViewController.swift in Sources */,
+				BDC10CE5210C40340020AF22 /* Country.swift in Sources */,
+				BDC10CE7210C40580020AF22 /* CardView.swift in Sources */,
+				BD7B3D6F210D715900D0FCE0 /* Localized.swift in Sources */,
+				BD58AC7C210C0D3E00185FF3 /* CountryFactory.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -816,6 +915,11 @@
 			isa = PBXTargetDependency;
 			target = BD96BF9721011DF500A354FC /* kiwiSlangApp */;
 			targetProxy = BD96BFBB21011DF800A354FC /* PBXContainerItemProxy */;
+		};
+		BDFAA24D210C006D003D929C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BDFAA241210C006C003D929C /* KiwiSlangWidget */;
+			targetProxy = BDFAA24C210C006D003D929C /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -836,6 +940,16 @@
 				BD0D99AC210122EC00FBBA2F /* es-419 */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		BDFAA248210C006D003D929C /* MainInterface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BDFAA249210C006D003D929C /* Base */,
+				BD7B3D6C210D620000D0FCE0 /* en */,
+				BD7B3D6E210D622C00D0FCE0 /* es-419 */,
+			);
+			name = MainInterface.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -900,7 +1014,9 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = C894BE0003F8B499BD26809F /* Pods-kiwiSlangApp.staging.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = kiwiSlangApp/kiwiSlangApp.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 3;
 				DEVELOPMENT_TEAM = C8499A962H;
@@ -1082,7 +1198,9 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = B11FE4A97989E752A2B26C90 /* Pods-kiwiSlangApp.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = kiwiSlangApp/kiwiSlangApp.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 3;
 				DEVELOPMENT_TEAM = C8499A962H;
@@ -1104,7 +1222,9 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 99F21EE411FE5335685929DE /* Pods-kiwiSlangApp.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = kiwiSlangApp/kiwiSlangApp.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 3;
 				DEVELOPMENT_TEAM = C8499A962H;
@@ -1208,6 +1328,84 @@
 			};
 			name = Release;
 		};
+		BDFAA24F210C006D003D929C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1A1D3484A5EBB1A03DF07557 /* Pods-KiwiSlangWidget.debug.xcconfig */;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CODE_SIGN_ENTITLEMENTS = KiwiSlangWidget/KiwiSlangWidget.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C8499A962H;
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = KiwiSlangWidget/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PODS_BUILD_DIR = "$(inherited)";
+				PODS_CONFIGURATION_BUILD_DIR = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sheinix.kiwiSlangApp.KiwiSlangWidget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				SYSTEM_FRAMEWORK_SEARCH_PATHS = "$(inherited)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BDFAA250210C006D003D929C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6041E7029AA9F967E41696A9 /* Pods-KiwiSlangWidget.release.xcconfig */;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CODE_SIGN_ENTITLEMENTS = KiwiSlangWidget/KiwiSlangWidget.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C8499A962H;
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = KiwiSlangWidget/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PODS_BUILD_DIR = "$(inherited)";
+				PODS_CONFIGURATION_BUILD_DIR = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sheinix.kiwiSlangApp.KiwiSlangWidget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				SYSTEM_FRAMEWORK_SEARCH_PATHS = "$(inherited)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		BDFAA251210C006D003D929C /* Staging */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4B8FC6037EE9C0747E9C1E25 /* Pods-KiwiSlangWidget.staging.xcconfig */;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CODE_SIGN_ENTITLEMENTS = KiwiSlangWidget/KiwiSlangWidget.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C8499A962H;
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = KiwiSlangWidget/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PODS_BUILD_DIR = "$(inherited)";
+				PODS_CONFIGURATION_BUILD_DIR = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sheinix.kiwiSlangApp.KiwiSlangWidget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				SYSTEM_FRAMEWORK_SEARCH_PATHS = "$(inherited)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Staging;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -1247,6 +1445,16 @@
 				BD96BFCA21011DF800A354FC /* Debug */,
 				BD96BFCB21011DF800A354FC /* Release */,
 				BD0D99A52101221300FBBA2F /* Staging */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BDFAA252210C006D003D929C /* Build configuration list for PBXNativeTarget "KiwiSlangWidget" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BDFAA24F210C006D003D929C /* Debug */,
+				BDFAA250210C006D003D929C /* Release */,
+				BDFAA251210C006D003D929C /* Staging */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

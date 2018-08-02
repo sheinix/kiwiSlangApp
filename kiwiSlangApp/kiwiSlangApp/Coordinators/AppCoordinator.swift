@@ -26,13 +26,3 @@ class ApplicationCoordinator: Coordinator {
         window.makeKeyAndVisible()
     }
 }
-
-//extension ApplicationCoordinator : CLMasterViewControllerProtocol {
-//    func didSelect(navController: UINavigationController, at idx: IndexPath) {
-//
-//        if let splitVC = rootViewController as? CLSplitViewController {
-//
-//            splitVC.showDetailViewController(navController, sender: splitVC.masterVC)
-//        }
-//    }
-//}

@@ -22,7 +22,7 @@ class PersitanceManager {
     private let config : Realm.Configuration = {
         
         let directory: URL = FileManager.default.containerURL(forSecurityApplicationGroupIdentifier: ConfigurationConstant.groupName)!
-        let realmPath = directory.path.appending(RealmDefault.dbProdName)
+        let realmPath = directory.path.appending("/").appending(RealmDefault.dbProdName)
         let url = URL(fileURLWithPath: realmPath)
         let config = Realm.Configuration(fileURL: url, schemaVersion: 1, migrationBlock: { (migration, oldSchemaVersion) in
             if (oldSchemaVersion < 1) {

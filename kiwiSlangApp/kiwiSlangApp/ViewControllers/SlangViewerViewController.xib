@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
@@ -15,19 +18,19 @@
         </placeholder>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
         <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
-            <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Kiwi Slang!" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZeB-Cs-EDu">
-                    <rect key="frame" x="84" y="50" width="206.5" height="49"/>
+                    <rect key="frame" x="84" y="45" width="206.5" height="49"/>
                     <fontDescription key="fontDescription" type="boldSystem" pointSize="40"/>
                     <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     <nil key="highlightedColor"/>
                     <color key="shadowColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     <size key="shadowOffset" width="1" height="1"/>
                 </label>
-                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Swipe the card to reveal more slang words!" textAlignment="center" lineBreakMode="wordWrap" baselineAdjustment="alignBaselines" minimumScaleFactor="0.29999999999999999" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="IvN-qL-A4d">
-                    <rect key="frame" x="20" y="758" width="335" height="42"/>
+                <label opaque="NO" userInteractionEnabled="NO" alpha="0.80000000000000004" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Swipe the card to reveal more slang words!" textAlignment="center" lineBreakMode="wordWrap" baselineAdjustment="alignBaselines" minimumScaleFactor="0.29999999999999999" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="IvN-qL-A4d">
+                    <rect key="frame" x="20" y="94" width="335" height="42"/>
                     <constraints>
                         <constraint firstAttribute="height" constant="42" id="9Pk-Ci-tfh"/>
                     </constraints>
@@ -41,14 +44,14 @@
             <color key="backgroundColor" red="0.22352941179999999" green="0.37254901959999998" blue="1" alpha="1" colorSpace="calibratedRGB"/>
             <constraints>
                 <constraint firstItem="IvN-qL-A4d" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="20" id="0hA-OT-hwY"/>
-                <constraint firstItem="ZeB-Cs-EDu" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" constant="30" id="46h-VY-Mae"/>
-                <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" secondItem="IvN-qL-A4d" secondAttribute="bottom" constant="12" id="Hur-cw-pvl"/>
+                <constraint firstItem="ZeB-Cs-EDu" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" constant="25" id="46h-VY-Mae"/>
                 <constraint firstItem="IvN-qL-A4d" firstAttribute="centerX" secondItem="fnl-2z-Ty3" secondAttribute="centerX" id="Wwv-z9-hUW"/>
                 <constraint firstItem="ZeB-Cs-EDu" firstAttribute="centerX" secondItem="fnl-2z-Ty3" secondAttribute="centerX" priority="750" id="k3l-eb-u4x"/>
                 <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="IvN-qL-A4d" secondAttribute="trailing" constant="20" id="qej-Y9-QiJ"/>
+                <constraint firstItem="IvN-qL-A4d" firstAttribute="top" secondItem="ZeB-Cs-EDu" secondAttribute="bottom" id="uXx-hL-ghc"/>
             </constraints>
             <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
-            <point key="canvasLocation" x="33.5" y="53"/>
+            <point key="canvasLocation" x="33.5" y="52.5"/>
         </view>
     </objects>
 </document>

@@ -48,6 +48,14 @@
 		BD58AC79210C0A4700185FF3 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD0D99BC2101372B00FBBA2F /* Colors.swift */; };
 		BD58AC7A210C0BB500185FF3 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD0D99BA2101372500FBBA2F /* Constants.swift */; };
 		BD58AC7C210C0D3E00185FF3 /* CountryFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD19107F210156AD00837158 /* CountryFactory.swift */; };
+		BD6D4F43211D280A00D6220C /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = BD6D4F42211D280A00D6220C /* GoogleService-Info.plist */; };
+		BD6D4F44211D280A00D6220C /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = BD6D4F42211D280A00D6220C /* GoogleService-Info.plist */; };
+		BD6D4F45211D280A00D6220C /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = BD6D4F42211D280A00D6220C /* GoogleService-Info.plist */; };
+		BD6D4F46211D280A00D6220C /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = BD6D4F42211D280A00D6220C /* GoogleService-Info.plist */; };
+		BD6D4F48211D3B5100D6220C /* UIViewControllerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD6D4F47211D3B5100D6220C /* UIViewControllerExtension.swift */; };
+		BD6D4F49211D3B5100D6220C /* UIViewControllerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD6D4F47211D3B5100D6220C /* UIViewControllerExtension.swift */; };
+		BD6D4F4A211D3B5100D6220C /* UIViewControllerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD6D4F47211D3B5100D6220C /* UIViewControllerExtension.swift */; };
+		BD6D4F4B211D3B5100D6220C /* UIViewControllerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD6D4F47211D3B5100D6220C /* UIViewControllerExtension.swift */; };
 		BD7B3D6F210D715900D0FCE0 /* Localized.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD259B7D2105364500C7D0DE /* Localized.swift */; };
 		BD7B3D70210D716500D0FCE0 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = BD0D99AA210122CB00FBBA2F /* Localizable.strings */; };
 		BD807160210458E6008BE4B1 /* CountryFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD19107F210156AD00837158 /* CountryFactory.swift */; };
@@ -178,6 +186,8 @@
 		BD58AC75210C090600185FF3 /* KiwiSlangWidget.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = KiwiSlangWidget.entitlements; sourceTree = "<group>"; };
 		BD58AC76210C0A0C00185FF3 /* RealmSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = RealmSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD58AC7D210C0FEB00185FF3 /* Pods_kiwiSlangApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Pods_kiwiSlangApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD6D4F42211D280A00D6220C /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		BD6D4F47211D3B5100D6220C /* UIViewControllerExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewControllerExtension.swift; sourceTree = "<group>"; };
 		BD7B3D6C210D620000D0FCE0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/MainInterface.strings; sourceTree = "<group>"; };
 		BD7B3D6E210D622C00D0FCE0 /* es-419 */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "es-419"; path = "es-419.lproj/MainInterface.strings"; sourceTree = "<group>"; };
 		BD80718121045B63008BE4B1 /* CardView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CardView.xib; sourceTree = "<group>"; };
@@ -323,6 +333,7 @@
 			isa = PBXGroup;
 			children = (
 				BD0D99BF2101385D00FBBA2F /* UIViewExtension.swift */,
+				BD6D4F47211D3B5100D6220C /* UIViewControllerExtension.swift */,
 				BDEB29EE2104D6BF006874BA /* CollectionExtension.swift */,
 			);
 			path = Extension;
@@ -404,6 +415,7 @@
 				BD96BFA521011DF800A354FC /* Assets.xcassets */,
 				BD96BFA721011DF800A354FC /* LaunchScreen.storyboard */,
 				BD96BFAA21011DF800A354FC /* Info.plist */,
+				BD6D4F42211D280A00D6220C /* GoogleService-Info.plist */,
 				BD0D999E2101205800FBBA2F /* Resources */,
 				BD0D99AA210122CB00FBBA2F /* Localizable.strings */,
 			);
@@ -478,7 +490,6 @@
 				BD0D99A1210120B700FBBA2F /* Fabric */,
 				C4E60844EABDE77E8A8C56A7 /* [CP] Embed Pods Frameworks */,
 				BDFAA253210C006D003D929C /* Embed App Extensions */,
-				1A14E5E4B9342DC4BE1EA20C /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -498,8 +509,6 @@
 				BD96BFAB21011DF800A354FC /* Sources */,
 				BD96BFAC21011DF800A354FC /* Frameworks */,
 				BD96BFAD21011DF800A354FC /* Resources */,
-				B73D7FCB549EEB006AFE7570 /* [CP] Embed Pods Frameworks */,
-				380ECF29FA904A3D717BDC99 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -519,8 +528,6 @@
 				BD96BFB621011DF800A354FC /* Sources */,
 				BD96BFB721011DF800A354FC /* Frameworks */,
 				BD96BFB821011DF800A354FC /* Resources */,
-				221AA7A4E86F2DC28FB50A6C /* [CP] Embed Pods Frameworks */,
-				FE5A2A3B6CCA7870DCD48828 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -540,7 +547,6 @@
 				BDFAA23E210C006C003D929C /* Sources */,
 				BDFAA23F210C006C003D929C /* Frameworks */,
 				BDFAA240210C006C003D929C /* Resources */,
-				F8A26F867CC0A65BA29254D9 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -615,6 +621,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BD0D99B72101366700FBBA2F /* SlangViewerViewController.xib in Resources */,
+				BD6D4F43211D280A00D6220C /* GoogleService-Info.plist in Resources */,
 				BD96BFA921011DF800A354FC /* LaunchScreen.storyboard in Resources */,
 				BD19107D21014FEB00837158 /* nzSlang.plist in Resources */,
 				BD80718221045B63008BE4B1 /* CardView.xib in Resources */,
@@ -633,6 +640,7 @@
 				BD80718721045CEC008BE4B1 /* CardView.xib in Resources */,
 				BD80717F21045A48008BE4B1 /* nzSlang.plist in Resources */,
 				BD259B84210565B400C7D0DE /* Assets.xcassets in Resources */,
+				BD6D4F44211D280A00D6220C /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -645,6 +653,7 @@
 				BD80718821045CED008BE4B1 /* CardView.xib in Resources */,
 				BD80718021045A49008BE4B1 /* nzSlang.plist in Resources */,
 				BD259B85210565B500C7D0DE /* Assets.xcassets in Resources */,
+				BD6D4F45211D280A00D6220C /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -654,6 +663,7 @@
 			files = (
 				BDFAA24A210C006D003D929C /* MainInterface.storyboard in Resources */,
 				BD7B3D70210D716500D0FCE0 /* Localizable.strings in Resources */,
+				BD6D4F46211D280A00D6220C /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -676,51 +686,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		1A14E5E4B9342DC4BE1EA20C /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-kiwiSlangApp/Pods-kiwiSlangApp-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		221AA7A4E86F2DC28FB50A6C /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-kiwiSlangAppUITests/Pods-kiwiSlangAppUITests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		380ECF29FA904A3D717BDC99 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-kiwiSlangAppTests/Pods-kiwiSlangAppTests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		5C18C4F49DD1D88F9D1C68A8 /* [CP] Check Pods Manifest.lock */ = {
@@ -757,21 +722,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		B73D7FCB549EEB006AFE7570 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-kiwiSlangAppTests/Pods-kiwiSlangAppTests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		BD0D999D2101202500FBBA2F /* SwiftLint */ = {
@@ -839,19 +789,23 @@
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-kiwiSlangApp/Pods-kiwiSlangApp-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/AFDateHelper/AFDateHelper.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
 				"${BUILT_PRODUCTS_DIR}/Koloda/Koloda.framework",
 				"${BUILT_PRODUCTS_DIR}/Realm/Realm.framework",
 				"${BUILT_PRODUCTS_DIR}/RealmSwift/RealmSwift.framework",
 				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
 				"${BUILT_PRODUCTS_DIR}/pop/pop.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AFDateHelper.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Koloda.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Realm.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RealmSwift.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/pop.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -875,36 +829,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		F8A26F867CC0A65BA29254D9 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KiwiSlangWidget/Pods-KiwiSlangWidget-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		FE5A2A3B6CCA7870DCD48828 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-kiwiSlangAppUITests/Pods-kiwiSlangAppUITests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -934,6 +858,7 @@
 				BD259B7E2105364500C7D0DE /* Images.swift in Sources */,
 				BD0D99CA210144A200FBBA2F /* SlangWordProtocol.swift in Sources */,
 				BD259B812105364500C7D0DE /* Localized.swift in Sources */,
+				BD6D4F48211D3B5100D6220C /* UIViewControllerExtension.swift in Sources */,
 				BD0D99BB2101372500FBBA2F /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -954,6 +879,7 @@
 				BD80718521045CE6008BE4B1 /* CardView.swift in Sources */,
 				BD807160210458E6008BE4B1 /* CountryFactory.swift in Sources */,
 				BD259B7F2105364500C7D0DE /* Images.swift in Sources */,
+				BD6D4F49211D3B5100D6220C /* UIViewControllerExtension.swift in Sources */,
 				BD259B822105364500C7D0DE /* Localized.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -964,6 +890,7 @@
 			files = (
 				BD80717A21045A38008BE4B1 /* UIViewExtension.swift in Sources */,
 				BD80717621045A2F008BE4B1 /* AppCoordinatorProtocol.swift in Sources */,
+				BD6D4F4A211D3B5100D6220C /* UIViewControllerExtension.swift in Sources */,
 				BD259B8721056E1800C7D0DE /* SnapshotHelper.swift in Sources */,
 				BD80717E21045A44008BE4B1 /* Colors.swift in Sources */,
 				BD259B7B2104D73E00C7D0DE /* CollectionExtension.swift in Sources */,
@@ -995,6 +922,7 @@
 				BDC10CE5210C40340020AF22 /* Country.swift in Sources */,
 				BDC10CE7210C40580020AF22 /* CardView.swift in Sources */,
 				BD7B3D6F210D715900D0FCE0 /* Localized.swift in Sources */,
+				BD6D4F4B211D3B5100D6220C /* UIViewControllerExtension.swift in Sources */,
 				BD58AC7C210C0D3E00185FF3 /* CountryFactory.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

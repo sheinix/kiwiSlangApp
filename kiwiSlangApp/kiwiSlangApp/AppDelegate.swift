@@ -10,6 +10,7 @@ import UIKit
 import CoreData
 import Fabric
 import Crashlytics
+import Firebase
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -26,6 +27,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
             self.applicationCoordinator = ApplicationCoordinator(window: window)
             self.applicationCoordinator?.start()
         }
+        
+        FirebaseApp.configure()
+        GADMobileAds.configure(withApplicationID: AdMobIds.appId)
         
         return true
     }

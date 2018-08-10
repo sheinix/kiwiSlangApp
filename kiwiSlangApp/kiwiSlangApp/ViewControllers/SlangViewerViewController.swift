@@ -9,12 +9,14 @@
 import UIKit
 import Koloda
 import SnapKit
+import GoogleMobileAds
 
 class SlangViewerViewController: UIViewController, MainViewControllerProtocol {
    
     @IBOutlet weak var titleLabel: UILabel!
     @IBOutlet weak var bottomLabel: UILabel!
     
+    let bannerView : GADBannerView = GADBannerView(adSize: kGADAdSizeSmartBannerPortrait)
     var viewModel : SlangViewModel!
     var isiPad : Bool = UIDevice.current.userInterfaceIdiom == .pad
     var edgeInset : CGFloat!
@@ -34,6 +36,8 @@ class SlangViewerViewController: UIViewController, MainViewControllerProtocol {
             make.top.equalTo(titleLabel.snp.bottom).offset(50)
             make.height.equalToSuperview().multipliedBy(0.6)
         }
+        
+        adSetup()
     }
     
     override func viewDidLayoutSubviews() {
@@ -41,7 +45,20 @@ class SlangViewerViewController: UIViewController, MainViewControllerProtocol {
         self.view.updateGradientLayerFrame(cornerRadius: 0.0)
     }
 
+    fileprivate func adSetup() {
+        addBannerViewToView(bannerView)
+        bannerView.adUnitID = AdMobIds.bannerID
+        bannerView.rootViewController = self
+        bannerView.delegate = self
+        let adRequest = GADRequest()
+        #if DEBUG
+        adRequest.testDevices = ["6736421560b539d2e37c4aa765012ed4"]
+        #endif
+        bannerView.load(adRequest)
+    }
 }
+
+// MARK: - KolodaViewDelegate & KolodaViewDataSource
 
 extension SlangViewerViewController : KolodaViewDelegate & KolodaViewDataSource {
     func koloda(_ koloda: KolodaView, viewForCardAt index: Int) -> UIView {
@@ -60,4 +77,33 @@ extension SlangViewerViewController : KolodaViewDelegate & KolodaViewDataSource 
     func kolodaDidRunOutOfCards(_ koloda: KolodaView) {
         koloda.resetCurrentCardIndex()
     }
+}
+
+// MARK: - GADBannerViewDelegate
+
+extension SlangViewerViewController : GADBannerViewDelegate {
+    
+    func adViewDidReceiveAd(_ bannerView: GADBannerView) {
+        bannerView.alpha = 0
+        UIView.animate(withDuration: 1.0, animations: {
+            bannerView.alpha = 1
+        })
+    }
+    
+    func adView(_ bannerView: GADBannerView, didFailToReceiveAdWithError error: GADRequestError) {
+        #if DEBUG
+            print("adView:didFailToReceiveAdWithError: \(error.localizedDescription)")
+        #endif
+    }
+    
+    func adViewWillPresentScreen(_ bannerView: GADBannerView) {
+        print("adViewWillPresentScreen")
+    }
+    
+    
+    func adViewWillLeaveApplication(_ bannerView: GADBannerView) {
+        print("adViewWillLeaveApplication")
+    }
+    
+    
 }

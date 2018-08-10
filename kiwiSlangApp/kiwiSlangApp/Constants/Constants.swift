@@ -18,4 +18,14 @@ struct RealmDefault {
 
 struct ConfigurationConstant {
     static let groupName = "group.kiwiSlangApp"
+    
+}
+
+struct AdMobIds {
+    static let appId = "ca-app-pub-4978730909602502~4269680985"
+    #if DEBUG
+    static let bannerID = "ca-app-pub-3940256099942544/2934735716"
+    #else
+    static let bannerID = "ca-app-pub-3940256099942544/2934735716" //"ca-app-pub-4978730909602502/9549927826"
+    #endif
 }

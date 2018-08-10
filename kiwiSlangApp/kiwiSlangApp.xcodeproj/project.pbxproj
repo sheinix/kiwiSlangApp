@@ -49,9 +49,6 @@
 		BD58AC7A210C0BB500185FF3 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD0D99BA2101372500FBBA2F /* Constants.swift */; };
 		BD58AC7C210C0D3E00185FF3 /* CountryFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD19107F210156AD00837158 /* CountryFactory.swift */; };
 		BD6D4F43211D280A00D6220C /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = BD6D4F42211D280A00D6220C /* GoogleService-Info.plist */; };
-		BD6D4F44211D280A00D6220C /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = BD6D4F42211D280A00D6220C /* GoogleService-Info.plist */; };
-		BD6D4F45211D280A00D6220C /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = BD6D4F42211D280A00D6220C /* GoogleService-Info.plist */; };
-		BD6D4F46211D280A00D6220C /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = BD6D4F42211D280A00D6220C /* GoogleService-Info.plist */; };
 		BD6D4F48211D3B5100D6220C /* UIViewControllerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD6D4F47211D3B5100D6220C /* UIViewControllerExtension.swift */; };
 		BD6D4F49211D3B5100D6220C /* UIViewControllerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD6D4F47211D3B5100D6220C /* UIViewControllerExtension.swift */; };
 		BD6D4F4A211D3B5100D6220C /* UIViewControllerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD6D4F47211D3B5100D6220C /* UIViewControllerExtension.swift */; };
@@ -490,6 +487,7 @@
 				BD0D99A1210120B700FBBA2F /* Fabric */,
 				C4E60844EABDE77E8A8C56A7 /* [CP] Embed Pods Frameworks */,
 				BDFAA253210C006D003D929C /* Embed App Extensions */,
+				C907F3C0CF9C053D3D33D944 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -509,6 +507,8 @@
 				BD96BFAB21011DF800A354FC /* Sources */,
 				BD96BFAC21011DF800A354FC /* Frameworks */,
 				BD96BFAD21011DF800A354FC /* Resources */,
+				30151B31C7DAEF02F5B32B31 /* [CP] Embed Pods Frameworks */,
+				FA0E2759047E96FE9F8E8B1D /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -528,6 +528,8 @@
 				BD96BFB621011DF800A354FC /* Sources */,
 				BD96BFB721011DF800A354FC /* Frameworks */,
 				BD96BFB821011DF800A354FC /* Resources */,
+				9E4E2B8DF828CBE776C042FF /* [CP] Embed Pods Frameworks */,
+				FE7042B30AF6F20FCC25F904 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -547,6 +549,7 @@
 				BDFAA23E210C006C003D929C /* Sources */,
 				BDFAA23F210C006C003D929C /* Frameworks */,
 				BDFAA240210C006C003D929C /* Resources */,
+				436E18564A3901CD41B4F5FB /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -640,7 +643,6 @@
 				BD80718721045CEC008BE4B1 /* CardView.xib in Resources */,
 				BD80717F21045A48008BE4B1 /* nzSlang.plist in Resources */,
 				BD259B84210565B400C7D0DE /* Assets.xcassets in Resources */,
-				BD6D4F44211D280A00D6220C /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -653,7 +655,6 @@
 				BD80718821045CED008BE4B1 /* CardView.xib in Resources */,
 				BD80718021045A49008BE4B1 /* nzSlang.plist in Resources */,
 				BD259B85210565B500C7D0DE /* Assets.xcassets in Resources */,
-				BD6D4F45211D280A00D6220C /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -663,7 +664,6 @@
 			files = (
 				BDFAA24A210C006D003D929C /* MainInterface.storyboard in Resources */,
 				BD7B3D70210D716500D0FCE0 /* Localizable.strings in Resources */,
-				BD6D4F46211D280A00D6220C /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -686,6 +686,36 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		30151B31C7DAEF02F5B32B31 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-kiwiSlangAppTests/Pods-kiwiSlangAppTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		436E18564A3901CD41B4F5FB /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KiwiSlangWidget/Pods-KiwiSlangWidget-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		5C18C4F49DD1D88F9D1C68A8 /* [CP] Check Pods Manifest.lock */ = {
@@ -722,6 +752,21 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9E4E2B8DF828CBE776C042FF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-kiwiSlangAppUITests/Pods-kiwiSlangAppUITests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		BD0D999D2101202500FBBA2F /* SwiftLint */ = {
@@ -813,6 +858,21 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-kiwiSlangApp/Pods-kiwiSlangApp-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
+		C907F3C0CF9C053D3D33D944 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-kiwiSlangApp/Pods-kiwiSlangApp-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		F2EC7D21C597E71A55CE2B30 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -829,6 +889,36 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FA0E2759047E96FE9F8E8B1D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-kiwiSlangAppTests/Pods-kiwiSlangAppTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FE7042B30AF6F20FCC25F904 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-kiwiSlangAppUITests/Pods-kiwiSlangAppUITests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -1043,7 +1133,7 @@
 				CODE_SIGN_ENTITLEMENTS = kiwiSlangApp/kiwiSlangApp.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Distribution";
 				CODE_SIGN_STYLE = Manual;
-				CURRENT_PROJECT_VERSION = 12;
+				CURRENT_PROJECT_VERSION = 13;
 				DEVELOPMENT_TEAM = C8499A962H;
 				INFOPLIST_FILE = kiwiSlangApp/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
@@ -1230,7 +1320,7 @@
 				CODE_SIGN_ENTITLEMENTS = kiwiSlangApp/kiwiSlangApp.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Manual;
-				CURRENT_PROJECT_VERSION = 12;
+				CURRENT_PROJECT_VERSION = 13;
 				DEVELOPMENT_TEAM = C8499A962H;
 				INFOPLIST_FILE = kiwiSlangApp/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
@@ -1257,7 +1347,7 @@
 				CODE_SIGN_ENTITLEMENTS = kiwiSlangApp/kiwiSlangApp.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Distribution";
 				CODE_SIGN_STYLE = Manual;
-				CURRENT_PROJECT_VERSION = 12;
+				CURRENT_PROJECT_VERSION = 13;
 				DEVELOPMENT_TEAM = C8499A962H;
 				INFOPLIST_FILE = kiwiSlangApp/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.3;

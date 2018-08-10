@@ -2,9 +2,12 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "group:kiwiSlangApp.xcodeproj">
+      location = "group:/Users/juannuvreni/Desktop/Development/kiwiSlangApp/kiwiSlangApp/kiwiSlangApp.xcodeproj">
    </FileRef>
    <FileRef
       location = "group:Pods/Pods.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:kiwiSlangApp.xcodeproj">
    </FileRef>
 </Workspace>

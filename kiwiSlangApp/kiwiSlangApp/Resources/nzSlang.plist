@@ -884,6 +884,196 @@
             <key>countryCode</key>
             <string>NZ</string>
         </dict>
+        <dict>
+            <key>name</key>
+            <string>Kia Ora</string>
+            <key>meaning</key>
+            <string>Hello, in Māori language</string>
+            <key>imgName</key>
+            <string></string>
+            <key>countryCode</key>
+            <string>NZ</string>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>Beaut</string>
+            <key>meaning</key>
+            <string>Something really good or nice</string>
+            <key>imgName</key>
+            <string></string>
+            <key>countryCode</key>
+            <string>NZ</string>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>Eftpos</string>
+            <key>meaning</key>
+            <string>Short for Electronic Payment System</string>
+            <key>imgName</key>
+            <string></string>
+            <key>countryCode</key>
+            <string>NZ</string>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>Eh or Aye</string>
+            <key>meaning</key>
+            <string>Used to confirm something you're saying, without really asking a question</string>
+            <key>imgName</key>
+            <string></string>
+            <key>countryCode</key>
+            <string>NZ</string>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>Hokey Pokey</string>
+            <key>meaning</key>
+            <string>Popular NZ flavour</string>
+            <key>imgName</key>
+            <string></string>
+            <key>countryCode</key>
+            <string>NZ</string>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>Scroggin</string>
+            <key>meaning</key>
+            <string>A trail mix of nuts and fruits</string>
+            <key>imgName</key>
+            <string></string>
+            <key>countryCode</key>
+            <string>NZ</string>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>Carked it</string>
+            <key>meaning</key>
+            <string>When someone has died</string>
+            <key>imgName</key>
+            <string></string>
+            <key>countryCode</key>
+            <string>NZ</string>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>Sus</string>
+            <key>meaning</key>
+            <string>Suspicious</string>
+            <key>imgName</key>
+            <string></string>
+            <key>countryCode</key>
+            <string>NZ</string>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>Piece of Piss</string>
+            <key>meaning</key>
+            <string>Easy</string>
+            <key>imgName</key>
+            <string></string>
+            <key>countryCode</key>
+            <string>NZ</string>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>Stink one</string>
+            <key>meaning</key>
+            <string>Disappointing</string>
+            <key>imgName</key>
+            <string></string>
+            <key>countryCode</key>
+            <string>NZ</string>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>Skux</string>
+            <key>meaning</key>
+            <string>Cool or trendy</string>
+            <key>imgName</key>
+            <string></string>
+            <key>countryCode</key>
+            <string>NZ</string>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>Mare</string>
+            <key>meaning</key>
+            <string>Difficult time</string>
+            <key>imgName</key>
+            <string></string>
+            <key>countryCode</key>
+            <string>NZ</string>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>Gumboot Tea</string>
+            <key>meaning</key>
+            <string>Normal Tea</string>
+            <key>imgName</key>
+            <string></string>
+            <key>countryCode</key>
+            <string>NZ</string>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>Tu Meke/Too much</string>
+            <key>meaning</key>
+            <string>Awesome or Good job</string>
+            <key>imgName</key>
+            <string></string>
+            <key>countryCode</key>
+            <string>NZ</string>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>Bowl Round</string>
+            <key>meaning</key>
+            <string>Coming around to visit</string>
+            <key>imgName</key>
+            <string></string>
+            <key>countryCode</key>
+            <string>NZ</string>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>Pakaru</string>
+            <key>meaning</key>
+            <string>Used when something is broken</string>
+            <key>imgName</key>
+            <string></string>
+            <key>countryCode</key>
+            <string>NZ</string>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>Stubbies</string>
+            <key>meaning</key>
+            <string>Shorts</string>
+            <key>imgName</key>
+            <string></string>
+            <key>countryCode</key>
+            <string>NZ</string>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>Aussie</string>
+            <key>meaning</key>
+            <string>An Australian</string>
+            <key>imgName</key>
+            <string></string>
+            <key>countryCode</key>
+            <string>NZ</string>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>Oz</string>
+            <key>meaning</key>
+            <string>Australia</string>
+            <key>imgName</key>
+            <string></string>
+            <key>countryCode</key>
+            <string>NZ</string>
+        </dict>
 	</array>
 </dict>
 </plist>

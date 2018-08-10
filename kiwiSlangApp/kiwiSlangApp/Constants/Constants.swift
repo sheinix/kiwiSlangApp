@@ -16,8 +16,9 @@ struct RealmDefault {
     static let dbProdName = "Production.realm"
 }
 
-struct ConfigurationConstant {
+struct Configuration {
     static let groupName = "group.kiwiSlangApp"
+    static let appURL = "https://itunes.apple.com/us/app/kiwi-slang/id1414555393?mt=8"
 }
 
 struct AdMobIds {

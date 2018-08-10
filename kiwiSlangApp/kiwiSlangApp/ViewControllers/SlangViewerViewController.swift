@@ -63,7 +63,8 @@ class SlangViewerViewController: UIViewController, MainViewControllerProtocol {
 
 extension SlangViewerViewController : KolodaViewDelegate & KolodaViewDataSource {
     func koloda(_ koloda: KolodaView, viewForCardAt index: Int) -> UIView {
-        guard let view = viewModel.slangWords[index].view else { return UIView() }
+        guard let view = viewModel.slangWords[index].view as? CardView else { return UIView() }
+        view.delegateCardView = self
         return view
     }
     
@@ -113,6 +114,17 @@ extension SlangViewerViewController : GADBannerViewDelegate {
     func adViewWillLeaveApplication(_ bannerView: GADBannerView) {
         print("adViewWillLeaveApplication")
     }
+}
+
+// MARK: - CardViewProtocolDelegate
+
+extension SlangViewerViewController : CardViewProtocolDelegate {
     
-    
+    func didTapOnButtonWith(word: String, meaning: String) {
+       
+        let textShare = [L10n.shareText(word, meaning), Configuration.appURL]
+        let activityViewController = UIActivityViewController(activityItems: textShare , applicationActivities: nil)
+        activityViewController.popoverPresentationController?.sourceView = self.view
+        self.present(activityViewController, animated: true, completion: nil)
+    }
 }

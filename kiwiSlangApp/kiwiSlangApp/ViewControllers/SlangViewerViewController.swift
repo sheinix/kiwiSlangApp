@@ -10,6 +10,7 @@ import UIKit
 import Koloda
 import SnapKit
 import GoogleMobileAds
+import StoreKit
 
 class SlangViewerViewController: UIViewController, MainViewControllerProtocol {
    
@@ -75,6 +76,14 @@ extension SlangViewerViewController : KolodaViewDelegate & KolodaViewDataSource 
     }
     
     func kolodaDidRunOutOfCards(_ koloda: KolodaView) {
+        
+        if !viewModel.hasRequestedRating {
+            if #available(iOS 10.3, *){
+                SKStoreReviewController.requestReview()
+                viewModel.hasRequestedRating = true
+            }
+        }
+        
         koloda.resetCurrentCardIndex()
     }
 }

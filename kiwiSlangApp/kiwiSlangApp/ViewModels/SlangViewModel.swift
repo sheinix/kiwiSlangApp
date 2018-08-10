@@ -11,4 +11,14 @@ import Foundation
 struct SlangViewModel {
     
     var slangWords : [SlangWordProtocol] = []
+    var hasRequestedRating : Bool {
+        get {
+            return UserDefaults.standard.bool(forKey: UserDefaultsKeys.askedForRating)
+        }
+        set {
+            UserDefaults.standard.set(newValue, forKey: UserDefaultsKeys.askedForRating)
+        }
+    }
+    
+    
 }

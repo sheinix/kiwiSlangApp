@@ -12,6 +12,10 @@ import GoogleMobileAds
 
 extension UIViewController {
     
+    var isRunningTests: Bool {
+        return CommandLine.arguments.contains("--uitesting")
+    }
+    
     func addBannerViewToView(_ bannerView: GADBannerView) {
     
         bannerView.translatesAutoresizingMaskIntoConstraints = false

@@ -47,6 +47,8 @@ class SlangViewerViewController: UIViewController, MainViewControllerProtocol {
     }
 
     fileprivate func adSetup() {
+        guard !isRunningTests else { return }
+        
         addBannerViewToView(bannerView)
         bannerView.adUnitID = AdMobIds.bannerID
         bannerView.rootViewController = self

@@ -11,6 +11,8 @@ import Koloda
 import SnapKit
 import GoogleMobileAds
 import StoreKit
+import MobileCoreServices
+import CoreSpotlight
 
 class SlangViewerViewController: UIViewController, MainViewControllerProtocol {
    
@@ -46,6 +48,16 @@ class SlangViewerViewController: UIViewController, MainViewControllerProtocol {
         self.view.updateGradientLayerFrame(cornerRadius: 0.0)
     }
 
+    override func restoreUserActivityState(_ activity: NSUserActivity) {
+        if activity.activityType == CSSearchableItemActionType, let info = activity.userInfo, let wordId = info[CSSearchableItemActivityIdentifier] as? String {
+            viewModel.showFirst(word: wordId)
+            guard let view = view.subviews.filter({ $0 is KolodaView }).first else { return }
+            guard let cardView = view as? KolodaView else { return }
+            cardView.reloadData()
+            
+        }
+    }
+    
     fileprivate func adSetup() {
         guard !isRunningTests else { return }
         

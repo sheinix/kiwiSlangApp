@@ -9,6 +9,8 @@ import Foundation
 internal enum L10n {
   /// Swipe the card to reveal more slang words!
   internal static let helpInstructionLabel = L10n.tr("Localizable", "help_instruction_label")
+  /// MEANING:
+  internal static let meaning = L10n.tr("Localizable", "meaning")
   /// I've been playing with this kiwi slang app, did you know %@ means %@ !
   internal static func shareText(_ p1: String, _ p2: String) -> String {
     return L10n.tr("Localizable", "share_text", p1, p2)

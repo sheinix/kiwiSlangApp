@@ -25,6 +25,8 @@
 		BD0D99CC210145D800FBBA2F /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD0D99CB210145D800FBBA2F /* MainViewController.swift */; };
 		BD0D99CE2101461B00FBBA2F /* MainViewControllerProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD0D99CD2101461B00FBBA2F /* MainViewControllerProtocol.swift */; };
 		BD0D9A1521014E5C00FBBA2F /* PersitanceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD0D9A1421014E5C00FBBA2F /* PersitanceManager.swift */; };
+		BD17C1EA211FF32200C6B68B /* Stickers.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD17C1E9211FF32200C6B68B /* Stickers.xcassets */; };
+		BD17C1EE211FF32200C6B68B /* Kiwi Slang Stickers.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = BD17C1E7211FF32000C6B68B /* Kiwi Slang Stickers.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		BD19107D21014FEB00837158 /* nzSlang.plist in Resources */ = {isa = PBXBuildFile; fileRef = BD19107C21014FEB00837158 /* nzSlang.plist */; };
 		BD191080210156AD00837158 /* CountryFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD19107F210156AD00837158 /* CountryFactory.swift */; };
 		BD191082210158B600837158 /* WordParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD191081210158B600837158 /* WordParser.swift */; };
@@ -102,6 +104,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		BD17C1EC211FF32200C6B68B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BD96BF9021011DF500A354FC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BD17C1E6211FF32000C6B68B;
+			remoteInfo = "Kiwi Slang Stickers";
+		};
 		BD96BFB021011DF800A354FC /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BD96BF9021011DF500A354FC /* Project object */;
@@ -132,6 +141,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 13;
 			files = (
+				BD17C1EE211FF32200C6B68B /* Kiwi Slang Stickers.appex in Embed App Extensions */,
 				BDFAA24E210C006D003D929C /* KiwiSlangWidget.appex in Embed App Extensions */,
 			);
 			name = "Embed App Extensions";
@@ -168,6 +178,9 @@
 		BD0D99CB210145D800FBBA2F /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		BD0D99CD2101461B00FBBA2F /* MainViewControllerProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewControllerProtocol.swift; sourceTree = "<group>"; };
 		BD0D9A1421014E5C00FBBA2F /* PersitanceManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersitanceManager.swift; sourceTree = "<group>"; };
+		BD17C1E7211FF32000C6B68B /* Kiwi Slang Stickers.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Kiwi Slang Stickers.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD17C1E9211FF32200C6B68B /* Stickers.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Stickers.xcassets; sourceTree = "<group>"; };
+		BD17C1EB211FF32200C6B68B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BD19107C21014FEB00837158 /* nzSlang.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = nzSlang.plist; sourceTree = "<group>"; };
 		BD19107F210156AD00837158 /* CountryFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryFactory.swift; sourceTree = "<group>"; };
 		BD191081210158B600837158 /* WordParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordParser.swift; sourceTree = "<group>"; };
@@ -212,6 +225,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		535244B7A9DAC598FAD8930D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		BD96BF9521011DF500A354FC /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -352,6 +372,15 @@
 			path = Model;
 			sourceTree = "<group>";
 		};
+		BD17C1E8211FF32000C6B68B /* Kiwi Slang Stickers */ = {
+			isa = PBXGroup;
+			children = (
+				BD17C1E9211FF32200C6B68B /* Stickers.xcassets */,
+				BD17C1EB211FF32200C6B68B /* Info.plist */,
+			);
+			path = "Kiwi Slang Stickers";
+			sourceTree = "<group>";
+		};
 		BD19107E2101567100837158 /* Country */ = {
 			isa = PBXGroup;
 			children = (
@@ -368,6 +397,7 @@
 				BD96BFB221011DF800A354FC /* kiwiSlangAppTests */,
 				BD96BFBD21011DF800A354FC /* kiwiSlangAppUITests */,
 				BDFAA245210C006D003D929C /* KiwiSlangWidget */,
+				BD17C1E8211FF32000C6B68B /* Kiwi Slang Stickers */,
 				BD96BF9921011DF500A354FC /* Products */,
 				DC81F11C27A35866A480F885 /* Pods */,
 				6A23FD01D9909BC96882C65D /* Frameworks */,
@@ -381,6 +411,7 @@
 				BD96BFAF21011DF800A354FC /* kiwiSlangAppTests.xctest */,
 				BD96BFBA21011DF800A354FC /* kiwiSlangAppUITests.xctest */,
 				BDFAA242210C006C003D929C /* KiwiSlangWidget.appex */,
+				BD17C1E7211FF32000C6B68B /* Kiwi Slang Stickers.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -459,6 +490,22 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		BD17C1E6211FF32000C6B68B /* Kiwi Slang Stickers */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BD17C1F2211FF32200C6B68B /* Build configuration list for PBXNativeTarget "Kiwi Slang Stickers" */;
+			buildPhases = (
+				BD17C1E5211FF32000C6B68B /* Resources */,
+				535244B7A9DAC598FAD8930D /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Kiwi Slang Stickers";
+			productName = "Kiwi Slang Stickers";
+			productReference = BD17C1E7211FF32000C6B68B /* Kiwi Slang Stickers.appex */;
+			productType = "com.apple.product-type.app-extension.messages-sticker-pack";
+		};
 		BD96BF9721011DF500A354FC /* kiwiSlangApp */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = BD96BFC321011DF800A354FC /* Build configuration list for PBXNativeTarget "kiwiSlangApp" */;
@@ -479,6 +526,7 @@
 			);
 			dependencies = (
 				BDFAA24D210C006D003D929C /* PBXTargetDependency */,
+				BD17C1ED211FF32200C6B68B /* PBXTargetDependency */,
 			);
 			name = kiwiSlangApp;
 			productName = kiwiSlangApp;
@@ -556,6 +604,9 @@
 				LastUpgradeCheck = 0940;
 				ORGANIZATIONNAME = sheinix;
 				TargetAttributes = {
+					BD17C1E6211FF32000C6B68B = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
 					BD96BF9721011DF500A354FC = {
 						CreatedOnToolsVersion = 9.4.1;
 						SystemCapabilities = {
@@ -600,11 +651,20 @@
 				BD96BFAE21011DF800A354FC /* kiwiSlangAppTests */,
 				BD96BFB921011DF800A354FC /* kiwiSlangAppUITests */,
 				BDFAA241210C006C003D929C /* KiwiSlangWidget */,
+				BD17C1E6211FF32000C6B68B /* Kiwi Slang Stickers */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		BD17C1E5211FF32000C6B68B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD17C1EA211FF32200C6B68B /* Stickers.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		BD96BF9621011DF500A354FC /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -1011,6 +1071,11 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		BD17C1ED211FF32200C6B68B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BD17C1E6211FF32000C6B68B /* Kiwi Slang Stickers */;
+			targetProxy = BD17C1EC211FF32200C6B68B /* PBXContainerItemProxy */;
+		};
 		BD96BFB121011DF800A354FC /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = BD96BF9721011DF500A354FC /* kiwiSlangApp */;
@@ -1184,6 +1249,60 @@
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = kiwiSlangApp;
+			};
+			name = Staging;
+		};
+		BD17C1EF211FF32200C6B68B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "iMessage App Icon";
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = C8499A962H;
+				INFOPLIST_FILE = "Kiwi Slang Stickers/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sheinix.kiwiSlangApp.Kiwi-Slang-Stickers";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "88363086-2247-4801-9e05-b6fe70bdd5c2";
+				PROVISIONING_PROFILE_SPECIFIER = "match AppStore com.sheinix.kiwiSlangApp.Kiwi-Slang-Stickers";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BD17C1F0211FF32200C6B68B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "iMessage App Icon";
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = C8499A962H;
+				INFOPLIST_FILE = "Kiwi Slang Stickers/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sheinix.kiwiSlangApp.Kiwi-Slang-Stickers";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "88363086-2247-4801-9e05-b6fe70bdd5c2";
+				PROVISIONING_PROFILE_SPECIFIER = "match AppStore com.sheinix.kiwiSlangApp.Kiwi-Slang-Stickers";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		BD17C1F1211FF32200C6B68B /* Staging */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "iMessage App Icon";
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = C8499A962H;
+				INFOPLIST_FILE = "Kiwi Slang Stickers/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sheinix.kiwiSlangApp.Kiwi-Slang-Stickers";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "88363086-2247-4801-9e05-b6fe70bdd5c2";
+				PROVISIONING_PROFILE_SPECIFIER = "match AppStore com.sheinix.kiwiSlangApp.Kiwi-Slang-Stickers";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Staging;
 		};
@@ -1538,6 +1657,16 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		BD17C1F2211FF32200C6B68B /* Build configuration list for PBXNativeTarget "Kiwi Slang Stickers" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD17C1EF211FF32200C6B68B /* Debug */,
+				BD17C1F0211FF32200C6B68B /* Release */,
+				BD17C1F1211FF32200C6B68B /* Staging */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		BD96BF9321011DF500A354FC /* Build configuration list for PBXProject "kiwiSlangApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (

@@ -1,0 +1,47 @@
+{
+  "stickers" : [
+    {
+      "filename" : "choice1.sticker"
+    },
+    {
+      "filename" : "AintoG1.sticker"
+    },
+    {
+      "filename" : "BobsYourUncle1.sticker"
+    },
+    {
+      "filename" : "Cuppa1.sticker"
+    },
+    {
+      "filename" : "kiaOraBro1.sticker"
+    },
+    {
+      "filename" : "MEAN1.sticker"
+    },
+    {
+      "filename" : "shellberight1.sticker"
+    },
+    {
+      "filename" : "TaMate1.sticker"
+    },
+    {
+      "filename" : "WALLY1.sticker"
+    },
+    {
+      "filename" : "TikiTour1.sticker"
+    },
+    {
+      "filename" : "YeahNah1.sticker"
+    },
+    {
+      "filename" : "FlatTack1.sticker"
+    }
+  ],
+  "info" : {
+    "version" : 1,
+    "author" : "xcode"
+  },
+  "properties" : {
+    "grid-size" : "regular"
+  }
+}

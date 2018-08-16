@@ -1189,7 +1189,7 @@
 				CODE_SIGN_ENTITLEMENTS = kiwiSlangApp/kiwiSlangApp.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Distribution";
 				CODE_SIGN_STYLE = Manual;
-				CURRENT_PROJECT_VERSION = 14;
+				CURRENT_PROJECT_VERSION = 15;
 				DEVELOPMENT_TEAM = C8499A962H;
 				INFOPLIST_FILE = kiwiSlangApp/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
@@ -1431,7 +1431,7 @@
 				CODE_SIGN_ENTITLEMENTS = kiwiSlangApp/kiwiSlangApp.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Manual;
-				CURRENT_PROJECT_VERSION = 14;
+				CURRENT_PROJECT_VERSION = 15;
 				DEVELOPMENT_TEAM = C8499A962H;
 				INFOPLIST_FILE = kiwiSlangApp/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
@@ -1458,7 +1458,7 @@
 				CODE_SIGN_ENTITLEMENTS = kiwiSlangApp/kiwiSlangApp.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Distribution";
 				CODE_SIGN_STYLE = Manual;
-				CURRENT_PROJECT_VERSION = 14;
+				CURRENT_PROJECT_VERSION = 15;
 				DEVELOPMENT_TEAM = C8499A962H;
 				INFOPLIST_FILE = kiwiSlangApp/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
